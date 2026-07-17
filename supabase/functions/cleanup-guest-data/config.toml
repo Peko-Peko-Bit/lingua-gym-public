@@ -1,0 +1,5 @@
+[functions.cleanup-guest-data]
+# スケジュールは pg_cron + pg_net で管理（毎時0分、x-cleanup-secret ヘッダ付きで呼び出し）。
+# 宣言的 schedule はカスタムヘッダを付けられず、シークレット検証と両立しないため使わない。
+# verify_jwt=true は公開 anon キー保持者を全員通してしまうため、自前シークレット（CLEANUP_SECRET）で保護する。
+verify_jwt = false

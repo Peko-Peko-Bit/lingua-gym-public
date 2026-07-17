@@ -1,0 +1,45 @@
+{
+  "name": "lingua_gym",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ducanh2912/next-pwa": "^10.2.9",
+    "@supabase/ssr": "^0.10.3",
+    "@supabase/supabase-js": "^2.99.1",
+    "@tailwindcss/postcss": "^4.2.1",
+    "lucide-react": "^0.577.0",
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.27",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.1.6",
+    "postcss": "^8.5.10",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "postcss": "$postcss",
+    "serialize-javascript": "^7.0.5"
+  }
+}

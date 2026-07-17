@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+/* ═══════════════════════════════════════════
+   LANGUAGE THEMES
+   Each theme overrides Tailwind's --color-indigo-*
+   (primary accent) and --color-purple-* (secondary
+   accent) so all existing utility classes respond
+   automatically.
+═══════════════════════════════════════════ */
+
+/* ── Default (fr, de, pt, zh, it …) — Dodger Blue ── */
+html[data-theme="default"] {
+  --color-indigo-50:  #EFF8FF;
+  --color-indigo-100: #D9EDFF;
+  --color-indigo-200: #B5DAFF;
+  --color-indigo-300: #80C3FF;
+  --color-indigo-400: #61B0FF;
+  --color-indigo-500: #3AA0FF;
+  --color-indigo-600: #1E90FF;
+  --color-indigo-700: #0073D6;
+  --color-indigo-800: #005AB3;
+  --color-indigo-900: #003B85;
+  --color-purple-100: #D9EDFF;
+  --color-purple-300: #80C3FF;
+  --color-purple-500: #3AA0FF;
+  --color-purple-600: #1E90FF;
+  --color-purple-700: #0073D6;
+  --color-purple-900: #003B85;
+}
+
+/* ── Español (es) — #E31B23 / #C41520 ── */
+html[data-theme="espanol"] {
+  --color-indigo-50:  #FEF2F2;
+  --color-indigo-100: #FEE2E2;
+  --color-indigo-200: #FECACA;
+  --color-indigo-300: #FCA5A5;
+  --color-indigo-400: #F87171;
+  --color-indigo-500: #E31B23;
+  --color-indigo-600: #C41520;
+  --color-indigo-700: #9A1016;
+  --color-indigo-800: #7F1111;
+  --color-indigo-900: #450A0A;
+  --color-purple-100: #FEF9C3;
+  --color-purple-300: #FDE047;
+  --color-purple-500: #EAB308;
+  --color-purple-600: #C98F00;
+  --color-purple-700: #A16207;
+  --color-purple-900: #713F12;
+}
+
+/* ── English (en) — #E03A3E / #002868 ── */
+html[data-theme="english"] {
+  --color-indigo-50:  #FEF2F2;
+  --color-indigo-100: #FEE2E3;
+  --color-indigo-200: #FDCACE;
+  --color-indigo-300: #FCA5A8;
+  --color-indigo-400: #F87177;
+  --color-indigo-500: #E85358;
+  --color-indigo-600: #E03A3E;
+  --color-indigo-700: #BF2C30;
+  --color-indigo-800: #9A2124;
+  --color-indigo-900: #5E1012;
+  --color-purple-100: #E8EFF9;
+  --color-purple-300: #6B96CB;
+  --color-purple-500: #1A4898;
+  --color-purple-600: #002868;
+  --color-purple-700: #001E50;
+  --color-purple-900: #000B20;
+}
+
+/* ── 日本語 (ja) — #BC002D / #FFFFFF ── */
+html[data-theme="japonais"] {
+  --color-indigo-50:  #FFF0F4;
+  --color-indigo-100: #FFD6E2;
+  --color-indigo-200: #FFADC6;
+  --color-indigo-300: #FF7DA3;
+  --color-indigo-400: #E85080;
+  --color-indigo-500: #D0204F;
+  --color-indigo-600: #BC002D;
+  --color-indigo-700: #940025;
+  --color-indigo-800: #6B001C;
+  --color-indigo-900: #3D0011;
+  --color-purple-100: #FFFFFF;
+  --color-purple-300: #F0F0F0;
+  --color-purple-500: #D0D0D0;
+  --color-purple-600: #B0B0B0;
+  --color-purple-700: #909090;
+  --color-purple-900: #505050;
+}
+
+/* ── 한국어 (ko) — #0047A0 / #CD2E3A ── */
+html[data-theme="hanguk"] {
+  --color-indigo-50:  #E8F0FB;
+  --color-indigo-100: #C5D8F5;
+  --color-indigo-200: #9BBDE9;
+  --color-indigo-300: #6B9BD8;
+  --color-indigo-400: #3B7ED1;
+  --color-indigo-500: #1A62BF;
+  --color-indigo-600: #0047A0;
+  --color-indigo-700: #003880;
+  --color-indigo-800: #002860;
+  --color-indigo-900: #001840;
+  --color-purple-100: #FEE2E4;
+  --color-purple-300: #E87D84;
+  --color-purple-500: #D94E57;
+  --color-purple-600: #CD2E3A;
+  --color-purple-700: #A3232D;
+  --color-purple-900: #420E12;
+}
+
+/* ── Català (ca) — #D97706 / #DC2626 ── */
+html[data-theme="catala"] {
+  --color-indigo-50:  #FFFBEB;
+  --color-indigo-100: #FEF3C7;
+  --color-indigo-200: #FDE68A;
+  --color-indigo-300: #FCD34D;
+  --color-indigo-400: #FBBF24;
+  --color-indigo-500: #F59E0B;
+  --color-indigo-600: #D97706;
+  --color-indigo-700: #B45309;
+  --color-indigo-800: #92400E;
+  --color-indigo-900: #78350F;
+  --color-purple-100: #FEE2E2;
+  --color-purple-300: #FCA5A5;
+  --color-purple-500: #EF4444;
+  --color-purple-600: #DC2626;
+  --color-purple-700: #B91C1C;
+  --color-purple-900: #7F1D1D;
+}
