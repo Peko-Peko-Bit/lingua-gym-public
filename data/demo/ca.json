@@ -1,0 +1,216 @@
+{
+  "sourceLang": "ca",
+  "sessions": [
+    {
+      "key": "ca-1",
+      "title": "Cèl·lules mare: esperança",
+      "targetLang": "es",
+      "inputMode": "comprehension",
+      "isPinned": false,
+      "dayOffset": -9,
+      "time": "17:15",
+      "updatedMinuteOffset": 17,
+      "sourceText": "La teràpia amb cèl·lules mare ha obert noves esperances en el tractament de malalties degeneratives que fins fa poc es consideraven incurables. Aquests excepcionals agents biològics tenen la capacitat de diferenciar-se en pràcticament qualsevol tipus de cèl·lula del cos, la qual cosa els converteix en una eina potencialment revolucionària. Els investigadors han estat treballant intensament en la recerca de mètodes eficaços per a la seva aplicació clínica, tot i que encara hi ha molts desafiaments per superar. Un dels camps més prometedors és la medicina regenerativa, on s'està explorant el seu ús per reparar teixits danyats pel cor. Si bé els resultats preliminars són encoratjadors, és fonamental ser prudents i continuar amb una investigació rigorosa. La comunitat científica també està avaluació els possibles riscos associats a la teràpia, com ara el desenvolupament de tumors. Tot i això, la perspectiva d'oferir solucions a pacients amb greus afeccions és un motor poderós per a la innovació constant. S'espera que, amb el temps, les teràpies basades en cèl·lules mare puguin canviar radicalment el panorama mèdic. La ciència avança a passos de gegant, i aquesta àrea en particular il·lustra perfectament el potencial transformador de la biotecnologia.",
+      "segments": [
+        {
+          "sourceText": "La teràpia amb cèl·lules mare ha obert noves esperances",
+          "speakerLabel": null,
+          "referenceTranslation": "La terapia con células madre ha abierto nuevas esperanzas",
+          "userTranslation": "La terapia con células madre ha abierto una nueva esperanza",
+          "status": "yellow",
+          "reason": "El usuario tradujo 'noves esperances' (plural) como 'una nueva esperanza' (singular), perdiendo el matiz de múltiples esperanzas o posibilidades.",
+          "advice": "La terapia con células madre ha abierto nuevas esperanzas.",
+          "checkedMinuteOffset": 3,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " en el tractament de malalties degeneratives",
+          "speakerLabel": null,
+          "referenceTranslation": "en el tratamiento de enfermedades degenerativas",
+          "userTranslation": "en el tratamiento de enfermedades degenerativas",
+          "status": "green",
+          "reason": "El usuario entendió correctamente el significado completo de la frase sin errores.",
+          "advice": "",
+          "checkedMinuteOffset": 5,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " que fins fa poc es consideraven incurables.",
+          "speakerLabel": null,
+          "referenceTranslation": "que hasta hace poco se consideraban incurables.",
+          "userTranslation": "que hasta hace poco se daban por incurables.",
+          "status": "green",
+          "reason": "El usuario ha entendido correctamente el significado de la frase en catalán.",
+          "advice": "",
+          "checkedMinuteOffset": 7,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Aquests excepcionals agents biològics tenen la capacitat de diferenciar-se en pràcticament qualsevol tipus de cèl·lula del cos,",
+          "speakerLabel": null,
+          "referenceTranslation": "Estos excepcionales agentes biológicos pueden diferenciarse en prácticamente cualquier tipo de célula del cuerpo,",
+          "userTranslation": "Estos agentes biológicos excepcionales son capaces de convertirse en casi cualquier tipo de célula del cuerpo,",
+          "status": "green",
+          "reason": "El usuario comprendió correctamente que los agentes biológicos tienen la capacidad de transformarse en casi cualquier tipo de célula del cuerpo.",
+          "advice": "",
+          "checkedMinuteOffset": 9,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " la qual cosa els converteix en una eina potencialment revolucionària.",
+          "speakerLabel": null,
+          "referenceTranslation": "lo cual los convierte en una herramienta potencialmente revolucionaria.",
+          "userTranslation": "lo que los convierte en una herramienta revolucionaria.",
+          "status": "yellow",
+          "reason": "La traducción es correcta en su mayoría, pero omite el matiz de que la herramienta es 'potencialmente' revolucionaria, no solo revolucionaria.",
+          "advice": "lo cual los convierte en una herramienta potencialmente revolucionaria.",
+          "checkedMinuteOffset": 11,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Els investigadors han estat treballant intensament en la recerca de mètodes eficaços per a la seva aplicació clínica,",
+          "speakerLabel": null,
+          "referenceTranslation": "Los investigadores han estado trabajando intensamente para encontrar métodos efectivos para su aplicación clínica,",
+          "userTranslation": "Los investigadores llevan tiempo trabajando a fondo en la búsqueda de métodos eficaces para aplicarlas en la clínica,",
+          "status": "yellow",
+          "reason": "La traducción es correcta en su mayoría, pero la frase original incluye 'per a la seva aplicació clínica' refiriéndose a los 'mètodes' (para la aplicación de los métodos), y la traducción dice 'para aplicarlas en la clínica', donde 'aplicarlas' podría referirse a otra cosa.",
+          "advice": "Los investigadores han estado trabajando intensamente en la búsqueda de métodos eficaces para su aplicación clínica.",
+          "checkedMinuteOffset": 13,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " tot i que encara hi ha molts desafiaments per superar.",
+          "speakerLabel": null,
+          "referenceTranslation": "aunque todavía hay muchos desafíos por superar.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Un dels camps més prometedors és la medicina regenerativa,",
+          "speakerLabel": null,
+          "referenceTranslation": "Un de los campos más prometedores es la medicina regenerativa,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " on s'està explorant el seu ús per reparar teixits danyats pel cor.",
+          "speakerLabel": null,
+          "referenceTranslation": "donde se está explorando su uso para reparar tejidos dañados por el corazón.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Si bé els resultats preliminars són encoratjadors,",
+          "speakerLabel": null,
+          "referenceTranslation": "Si bien los resultados preliminares son alentadores,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " és fonamental ser prudents i continuar amb una investigació rigorosa.",
+          "speakerLabel": null,
+          "referenceTranslation": "es fundamental ser prudentes y continuar con una investigación rigurosa.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " La comunitat científica també està avaluació els possibles riscos associats a la teràpia,",
+          "speakerLabel": null,
+          "referenceTranslation": "La comunidad científica también está evaluando los posibles riesgos asociados a la terapia,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " com ara el desenvolupament de tumors.",
+          "speakerLabel": null,
+          "referenceTranslation": "como el desarrollo de tumores.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Tot i això, la perspectiva d'oferir solucions a pacients amb greus afeccions és un motor poderós per a la innovació constant.",
+          "speakerLabel": null,
+          "referenceTranslation": "Sin embargo, la perspectiva de ofrecer soluciones a pacientes con afecciones graves es un motor poderoso para la innovación constante.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " S'espera que, amb el temps, les teràpies basades en cèl·lules mare puguin canviar radicalment el panorama mèdic.",
+          "speakerLabel": null,
+          "referenceTranslation": "Se espera que las terapias con células madre puedan cambiar radicalmente el panorama médico con el tiempo.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " La ciència avança a passos de gegant,",
+          "speakerLabel": null,
+          "referenceTranslation": "La ciencia avanza a pasos de gigante,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " i aquesta àrea en particular il·lustra perfectament el potencial transformador de la biotecnologia.",
+          "speakerLabel": null,
+          "referenceTranslation": "y esta área en particular ilustra perfectamente el potencial transformador de la biotecnología.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "cèl·lules mare",
+      "translation": "células madre",
+      "type": "phrase",
+      "partOfSpeech": null,
+      "targetLang": "es",
+      "sessionKey": "ca-1",
+      "minuteOffset": 7
+    }
+  ]
+}

@@ -23,7 +23,10 @@ export default function LoginPage() {
         console.error("Guest login failed", error);
         return;
       }
-      await fetch("/api/guest/seed", { method: "POST" });
+      // Demo data is seeded by `/` itself (app/page.tsx), not from here — that
+      // is the one path every guest takes, including one arriving from
+      // LinguaCoach who never sees this page. Hard nav, not router.push, so the
+      // new session cookie reaches proxy.ts.
       window.location.href = "/";
     } finally {
       setGuestLoading(false);

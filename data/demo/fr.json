@@ -1,0 +1,205 @@
+{
+  "sourceLang": "fr",
+  "sessions": [
+    {
+      "key": "fr-1",
+      "title": "Otarie de Guadalupe",
+      "targetLang": "es",
+      "inputMode": "comprehension",
+      "isPinned": false,
+      "dayOffset": -15,
+      "time": "20:00",
+      "updatedMinuteOffset": 17,
+      "sourceText": "Les otaries de Guadalupe, une sous-espèce de l'otarie de Californie, étaient autrefois au bord de l'extinction à cause de la chasse commerciale intensive. Heureusement, des efforts de conservation soutenus ont permis une remarquable reprise de leur population au cours des dernières décennies. Ces mammifères marins intelligents et sociaux, qui fréquentent principalement les îles au large de la Basse-Californie, jouent un rôle écologique crucial dans leur écosystème. Leur régime alimentaire, composé principalement de poissons et de calmars, contribue à réguler les populations de ces espèces. L'observation de leur comportement grégaire, notamment lors des périodes de reproduction, est un spectacle fascinant pour les visiteurs des réserves naturelles. Les scientifiques continuent de surveiller leur état de santé et leur habitat, car le changement climatique représente une menace potentielle pour leur avenir. La résilience de ces créatures offre un puissant témoignage de l'importance de la protection de la faune marine. Si vous avez la chance de les observer, respectez leur espace et admirez leur adaptation à la vie océanique. Ces otaries rappellent la beauté fragile de la biodiversité de notre planète. Leur présence continue est un signal d'espoir pour la conservation.",
+      "segments": [
+        {
+          "sourceText": "Les otaries de Guadalupe, une sous-espèce de l'otarie de Californie,",
+          "speakerLabel": null,
+          "referenceTranslation": "Los lobos marinos de Guadalupe, una subespecie del lobo marino de California,",
+          "userTranslation": "El lobo marino de Guadalupe, que es una subespecie del lobo marino de California,",
+          "status": "green",
+          "reason": "La traducción es precisa y capta completamente el significado del texto original.",
+          "advice": "",
+          "checkedMinuteOffset": 3,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " étaient autrefois au bord de l'extinction",
+          "speakerLabel": null,
+          "referenceTranslation": "estaban antiguamente al borde de la extinción",
+          "userTranslation": "estuvieron en su día al borde de la extinción",
+          "status": "green",
+          "reason": "El usuario ha comprendido correctamente el significado del texto, traduciendo 'étaient autrefois' como 'estuvieron en su día' que transmite la idea de un tiempo pasado y 'au bord de l'extinction' como 'al borde de la extinción'.",
+          "advice": "",
+          "checkedMinuteOffset": 5,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " à cause de la chasse commerciale intensive.",
+          "speakerLabel": null,
+          "referenceTranslation": "debido a la caza comercial intensiva.",
+          "userTranslation": "por culpa de la caza comercial intensiva.",
+          "status": "green",
+          "reason": "La traducción es perfecta y conserva el sentido exacto de la frase original.",
+          "advice": "",
+          "checkedMinuteOffset": 7,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Heureusement, des efforts de conservation soutenus ont permis une remarquable reprise de leur population au cours des dernières décennies.",
+          "speakerLabel": null,
+          "referenceTranslation": "Afortunadamente, los esfuerzos continuos de conservación han permitido una notable recuperación de su población en las últimas décadas.",
+          "userTranslation": "Por suerte, un esfuerzo constante de conservación ha permitido una recuperación notable de su población en las últimas décadas.",
+          "status": "green",
+          "reason": "La traducción del usuario captura correctamente el significado del texto original francés, indicando que los esfuerzos sostenidos de conservación llevaron a una notable recuperación de la población en las últimas décadas.",
+          "advice": "",
+          "checkedMinuteOffset": 9,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Ces mammifères marins intelligents et sociaux",
+          "speakerLabel": null,
+          "referenceTranslation": "Estos mamíferos marinos inteligentes y sociales",
+          "userTranslation": "Estos mamíferos marinos inteligentes",
+          "status": "yellow",
+          "reason": "El usuario tradujo correctamente la primera parte de la frase, pero omitió completamente la idea de que los mamíferos son 'sociales'.",
+          "advice": "Estos mamíferos marinos inteligentes y sociales.",
+          "checkedMinuteOffset": 11,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": ", qui fréquentent principalement les îles au large de la Basse-Californie",
+          "speakerLabel": null,
+          "referenceTranslation": "que frecuentan principalmente las islas frente a Baja California",
+          "userTranslation": "que frecuentan sobre todo las islas frente a Baja California",
+          "status": "green",
+          "reason": "La traducción del usuario captura perfectamente el significado de la oración original, incluyendo la idea de que visitan 'principalmente' las islas y su ubicación.",
+          "advice": "",
+          "checkedMinuteOffset": 13,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": ", jouent un rôle écologique crucial dans leur écosystème.",
+          "speakerLabel": null,
+          "referenceTranslation": "juegan un papel ecológico crucial en su ecosistema.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Leur régime alimentaire, composé principalement de poissons et de calmars, contribue à réguler les populations de ces espèces.",
+          "speakerLabel": null,
+          "referenceTranslation": "Su dieta, compuesta principalmente de pescado y calamares, ayuda a regular las poblaciones de estas especies.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " L'observation de leur comportement grégaire, notamment lors des périodes de reproduction, est un spectacle fascinant pour les visiteurs des réserves naturelles.",
+          "speakerLabel": null,
+          "referenceTranslation": "La observación de su comportamiento gregario, especialmente durante la época de reproducción, es un espectáculo fascinante para los visitantes de las reservas naturales.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Les scientifiques continuent de surveiller leur état de santé et leur habitat,",
+          "speakerLabel": null,
+          "referenceTranslation": "Los científicos continúan monitorizando su estado de salud y su hábitat,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " car le changement climatique représente une menace potentielle pour leur avenir.",
+          "speakerLabel": null,
+          "referenceTranslation": "ya que el cambio climático representa una amenaza potencial para su futuro.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " La résilience de ces créatures offre un puissant témoignage de l'importance de la protection de la faune marine.",
+          "speakerLabel": null,
+          "referenceTranslation": "La resiliencia de estas criaturas ofrece un poderoso testimonio de la importancia de la protección de la fauna marina.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Si vous avez la chance de les observer, respectez leur espace",
+          "speakerLabel": null,
+          "referenceTranslation": "Si tiene la oportunidad de observarlos, respete su espacio",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " et admirez leur adaptation à la vie océanique.",
+          "speakerLabel": null,
+          "referenceTranslation": "y admire su adaptación a la vida oceánica.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Ces otaries rappellent la beauté fragile de la biodiversité de notre planète.",
+          "speakerLabel": null,
+          "referenceTranslation": "Estas lobas marinas nos recuerdan la frágil belleza de la biodiversidad de nuestro planeta.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Leur présence continue est un signal d'espoir pour la conservation.",
+          "speakerLabel": null,
+          "referenceTranslation": "Su continua presencia es una señal de esperanza para la conservación.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "au bord de l'extinction",
+      "translation": "al borde de la extinción",
+      "type": "phrase",
+      "partOfSpeech": null,
+      "targetLang": "es",
+      "sessionKey": "fr-1",
+      "minuteOffset": 6
+    }
+  ]
+}

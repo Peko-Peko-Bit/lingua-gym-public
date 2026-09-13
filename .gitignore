@@ -59,3 +59,7 @@ next-env.d.ts
 /public/fallback-*.js.map
 /public/swe-worker-*.js
 /public/swe-worker-*.js.map
+
+# raw output + review reports of the demo-data generator (regenerable)
+# only the reviewed-and-frozen data/demo/*.json is tracked
+/scripts/.demo-out/

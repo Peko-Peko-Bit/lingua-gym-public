@@ -1,0 +1,1404 @@
+{
+  "sourceLang": "es",
+  "sessions": [
+    {
+      "key": "es-1",
+      "title": "Escalada: mente y cuerpo",
+      "targetLang": "en",
+      "inputMode": "comprehension",
+      "isPinned": false,
+      "dayOffset": -2,
+      "time": "20:15",
+      "updatedMinuteOffset": 29,
+      "sourceText": "La escalada deportiva, más allá de ser una simple actividad física, se ha consolidado como una disciplina que exige una combinación única de fuerza, agilidad mental y resistencia. Los escaladores no solo entrenan su cuerpo para superar muros cada vez más desafiantes, sino que también cultivan una profunda conexión con su propia mente, aprendiendo a gestionar el miedo y a tomar decisiones rápidas bajo presión. Cada movimiento debe ser calculado, cada agarre evaluado con precisión, mientras el cuerpo se aferra a la roca o a las presas artificiales. Es fascinante observar cómo la concentración se vuelve absoluta, dejando de lado cualquier preocupación externa. Aquellos que practican este deporte a menudo describen una sensación de logro incomparable al alcanzar la cima de una ruta que antes parecía inexpugnable. Además de los beneficios físicos obvios, como el desarrollo muscular y la mejora cardiovascular, la escalada fomenta una notable paciencia y perseverancia. Si bien la progresión puede ser lenta al principio, cada pequeño avance se celebra enormemente. La comunidad de escaladores, por su parte, suele ser muy unida, compartiendo consejos y animándose mutuamente en cada intento. Muchos deportistas consideran que la escalada es una forma de meditación en movimiento, una oportunidad para desconectar del ajetreo diario y reconectar consigo mismos. La variedad de terrenos, desde las imponentes paredes de piedra natural hasta los gimnasios especializados, ofrece un abanico de experiencias para todos los niveles.",
+      "segments": [
+        {
+          "sourceText": "La escalada deportiva, más allá de ser una simple actividad física,",
+          "speakerLabel": null,
+          "referenceTranslation": "Sport climbing, beyond being a simple physical activity,",
+          "userTranslation": "Sport climbing is more than just physical exercise,",
+          "status": "green",
+          "reason": "The user correctly translated the core meaning of the sentence, indicating that sport climbing is more than just physical exercise.",
+          "advice": "",
+          "checkedMinuteOffset": 3,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " se ha consolidado como una disciplina que exige una combinación única",
+          "speakerLabel": null,
+          "referenceTranslation": "has consolidated as a discipline that demands a unique combination",
+          "userTranslation": "it has established itself as a discipline that demands a rare mix",
+          "status": "green",
+          "reason": "The user correctly understood the source text, including the nuance of 'única' as 'unique' or 'rare'.",
+          "advice": "",
+          "checkedMinuteOffset": 5,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " de fuerza, agilidad mental y resistencia.",
+          "speakerLabel": null,
+          "referenceTranslation": "of strength, mental agility, and endurance.",
+          "userTranslation": "of strength, mental sharpness and stamina.",
+          "status": "green",
+          "reason": "The user correctly translated each component of the phrase: 'fuerza' as strength, 'agilidad mental' as mental sharpness, and 'resistencia' as stamina, accurately conveying the original meaning.",
+          "advice": "",
+          "checkedMinuteOffset": 7,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Los escaladores no solo entrenan su cuerpo para superar muros cada vez más desafiantes,",
+          "speakerLabel": null,
+          "referenceTranslation": "Climbers train their bodies to overcome increasingly challenging walls,",
+          "userTranslation": "Climbers don't only train their bodies to get past walls that keep getting harder,",
+          "status": "green",
+          "reason": "The user fully understood the meaning of the sentence, including the idea of 'climbing walls' and 'increasing difficulty'.",
+          "advice": "",
+          "checkedMinuteOffset": 9,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " sino que también cultivan una profunda conexión con su propia mente, aprendiendo a gestionar el miedo",
+          "speakerLabel": null,
+          "referenceTranslation": "but also cultivate a deep connection with their own minds, learning to manage fear",
+          "userTranslation": "they also build a deep connection with their own mind, learning to handle fear",
+          "status": "green",
+          "reason": "The user correctly translated the core meaning of the Spanish phrase, indicating that individuals cultivate a deep connection with their mind and learn to manage fear.",
+          "advice": "",
+          "checkedMinuteOffset": 11,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " y a tomar decisiones rápidas bajo presión.",
+          "speakerLabel": null,
+          "referenceTranslation": "and make quick decisions under pressure.",
+          "userTranslation": "and to make decisions fast.",
+          "status": "yellow",
+          "reason": "The user understood the core action of making fast decisions, but missed the important nuance that these decisions are made 'under pressure'.",
+          "advice": "and to make rapid decisions under pressure.",
+          "checkedMinuteOffset": 13,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Cada movimiento debe ser calculado,",
+          "speakerLabel": null,
+          "referenceTranslation": "Every move must be calculated,",
+          "userTranslation": "Every movement has to be planned out,",
+          "status": "green",
+          "reason": "The user correctly understood that 'calculado' implies an action that is planned or thought out.",
+          "advice": "",
+          "checkedMinuteOffset": 15,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " cada agarre evaluado con precisión,",
+          "speakerLabel": null,
+          "referenceTranslation": "each grip precisely evaluated,",
+          "userTranslation": "and every hold judged accurately,",
+          "status": "green",
+          "reason": "The user correctly translated 'cada agarre' to 'every hold' and 'evaluado con precisión' to 'judged accurately', capturing the essence of the phrase.",
+          "advice": "",
+          "checkedMinuteOffset": 17,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " mientras el cuerpo se aferra a la roca o a las presas artificiales.",
+          "speakerLabel": null,
+          "referenceTranslation": "as the body clings to the rock or artificial holds.",
+          "userTranslation": "while the body hangs from the rock.",
+          "status": "yellow",
+          "reason": "The user correctly understood that the body is attached to the rock, but missed the mention of 'presas artificiales' (artificial holds/grips).",
+          "advice": "The correct understanding should include both the rock and artificial holds: 'while the body clings to the rock or to artificial holds.'",
+          "checkedMinuteOffset": 19,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Es fascinante observar cómo la concentración se vuelve absoluta,",
+          "speakerLabel": null,
+          "referenceTranslation": "It is fascinating to observe how concentration becomes absolute,",
+          "userTranslation": "It's fascinating to watch how their focus becomes total,",
+          "status": "green",
+          "reason": "The user correctly translates the core meaning of the sentence, understanding 'la concentración se vuelve absoluta' as 'focus becomes total' and 'Es fascinante observar cómo' as 'It's fascinating to watch how'.",
+          "advice": "",
+          "checkedMinuteOffset": 21,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " dejando de lado cualquier preocupación externa.",
+          "speakerLabel": null,
+          "referenceTranslation": "leaving aside any external worry.",
+          "userTranslation": "setting aside any outside worries.",
+          "status": "green",
+          "reason": "The user correctly translated the idiom 'dejando de lado' and the rest of the sentence, capturing the full meaning.",
+          "advice": "",
+          "checkedMinuteOffset": 23,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Aquellos que practican este deporte a menudo describen una sensación de logro incomparable al alcanzar la cima de una ruta que antes parecía inexpugnable.",
+          "speakerLabel": null,
+          "referenceTranslation": "Those who practice this sport often describe an unparalleled sense of accomplishment upon reaching the summit of a previously insurmountable route.",
+          "userTranslation": "People who do this sport often describe an incomparable feeling of achievement when they reach the top of a route that had seemed impossible before.",
+          "status": "green",
+          "reason": "The user perfectly understood the source text, correctly translating 'inexpugnable' as 'impossible' in this context and conveying the sense of achievement.",
+          "advice": "",
+          "checkedMinuteOffset": 25,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Además de los beneficios físicos obvios, como el desarrollo muscular y la mejora cardiovascular,",
+          "speakerLabel": null,
+          "referenceTranslation": "Besides the obvious physical benefits, like muscle development and cardiovascular improvement,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " la escalada fomenta una notable paciencia y perseverancia.",
+          "speakerLabel": null,
+          "referenceTranslation": "climbing fosters remarkable patience and perseverance.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Si bien la progresión puede ser lenta al principio, cada pequeño avance se celebra enormemente.",
+          "speakerLabel": null,
+          "referenceTranslation": "While progression may be slow at first, each small step forward is greatly celebrated.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " La comunidad de escaladores, por su parte, suele ser muy unida,",
+          "speakerLabel": null,
+          "referenceTranslation": "The climbing community, for its part, is usually very united,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " compartiendo consejos y animándose mutuamente en cada intento.",
+          "speakerLabel": null,
+          "referenceTranslation": "sharing tips and encouraging each other on each attempt.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Muchos deportistas consideran que la escalada es una forma de meditación en movimiento,",
+          "speakerLabel": null,
+          "referenceTranslation": "Many athletes consider climbing a form of moving meditation,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " una oportunidad para desconectar del ajetreo diario y reconectar consigo mismos.",
+          "speakerLabel": null,
+          "referenceTranslation": "an opportunity to disconnect from daily hustle and reconnect with themselves.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " La variedad de terrenos, desde las imponentes paredes de piedra natural hasta los gimnasios especializados, ofrece un abanico de experiencias para todos los niveles.",
+          "speakerLabel": null,
+          "referenceTranslation": "The variety of terrains, from imposing natural rock walls to specialized gyms, offers a range of experiences for all levels.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        }
+      ]
+    },
+    {
+      "key": "es-2",
+      "title": "Fiesta de San Miguel",
+      "targetLang": "en",
+      "inputMode": "phrasing",
+      "isPinned": false,
+      "dayOffset": -4,
+      "time": "08:40",
+      "updatedMinuteOffset": 23,
+      "sourceText": "The yearly festival in the small town of San Miguel is a very important tradition. For weeks, everyone prepares for the big celebration. Local artisans create beautiful crafts to sell in the market. Chefs practice their best traditional recipes, hoping to win the cooking contest. On the first day, the town square is full of music and dancing. Children release colorful balloons into the sky. Families gather to share delicious food and stories. The highlight is the parade, which features floats decorated with flowers and local symbols. Many people from nearby towns also come to join the festivities. The festival helps to keep the community spirit strong. It is a joyful time for everyone in San Miguel.",
+      "segments": [
+        {
+          "sourceText": "The yearly festival in the small town of San Miguel is a very important tradition.",
+          "speakerLabel": null,
+          "referenceTranslation": "El festival anual en el pequeño pueblo de San Miguel es una tradición muy importante.",
+          "userTranslation": "La fiesta anual del pequeño pueblo de San Miguel es una tradición muy importante.",
+          "status": "green",
+          "reason": "La traducción del usuario captura perfectamente el significado de la oración original, manteniendo la naturalidad y precisión.",
+          "advice": "",
+          "checkedMinuteOffset": 3,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " For weeks, everyone prepares for the big celebration.",
+          "speakerLabel": null,
+          "referenceTranslation": "Durante semanas, todos se preparan para la gran celebración.",
+          "userTranslation": "Durante varias semanas, todo el mundo se prepara para la gran celebración.",
+          "status": "green",
+          "reason": "La traducción del usuario captura perfectamente el significado de la frase original.",
+          "advice": "",
+          "checkedMinuteOffset": 5,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Local artisans create beautiful crafts to sell in the market.",
+          "speakerLabel": null,
+          "referenceTranslation": "Los artesanos locales crean hermosas artesanías para vender en el mercado.",
+          "userTranslation": "Los artesanos del pueblo hacen bonitas artesanías para venderlas en el mercado.",
+          "status": "yellow",
+          "reason": "La traducción es mayormente correcta, pero \"pueblo\" para \"local\" cambia ligeramente el significado para ser más específico de un pueblo, no solo el área local en general. Además, \"bonitas\" es un poco menos formal que \"hermosas\".",
+          "advice": "Los artesanos locales crean hermosas artesanías para vender en el mercado.",
+          "checkedMinuteOffset": 7,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Chefs practice their best traditional recipes,",
+          "speakerLabel": null,
+          "referenceTranslation": "Los chefs practican sus mejores recetas tradicionales,",
+          "userTranslation": "Los cocineros practican sus recetas tradicionales más buenas,",
+          "status": "green",
+          "reason": "La traducción del usuario es prácticamente idéntica a la de referencia y transmite el mismo significado.",
+          "advice": "",
+          "checkedMinuteOffset": 9,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " hoping to win the cooking contest.",
+          "speakerLabel": null,
+          "referenceTranslation": "con la esperanza de ganar el concurso de cocina.",
+          "userTranslation": "esperando ganar el concurso de cocina.",
+          "status": "green",
+          "reason": "La traducción del usuario es una traducción directa y precisa del texto de origen, manteniendo el mismo significado y articulación natural. Es una traducción idiomática correcta.",
+          "advice": "",
+          "checkedMinuteOffset": 11,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " On the first day, the town square is full of music and dancing.",
+          "speakerLabel": null,
+          "referenceTranslation": "El primer día, la plaza del pueblo está llena de música y baile.",
+          "userTranslation": "En el primer día, la plaza del pueblo es llena de música y baile.",
+          "status": "yellow",
+          "reason": "La traducción es casi perfecta en significado, pero el uso de 'es llena' en lugar de 'está llena' es un error gramatical que hace que la frase suene poco natural en español.",
+          "advice": "On the first day, the town square is full of music and dancing.",
+          "checkedMinuteOffset": 13,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Children release colorful balloons into the sky.",
+          "speakerLabel": null,
+          "referenceTranslation": "Los niños sueltan globos de colores al cielo.",
+          "userTranslation": "Los niños sueltan globos de colores hacia el cielo.",
+          "status": "green",
+          "reason": "La traducción del usuario es correcta y mantiene el significado original sin cambios.",
+          "advice": "",
+          "checkedMinuteOffset": 15,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Families gather to share delicious food and stories.",
+          "speakerLabel": null,
+          "referenceTranslation": "Las familias se reúnen para compartir deliciosa comida e historias.",
+          "userTranslation": "Las familias se van para compartir comida deliciosa y cuentos.",
+          "status": "red",
+          "reason": "La traducción del usuario cambia completamente el significado de la oración original, invirtiendo la acción de 'reunirse' a 'irse'.",
+          "advice": "Families gather to share delicious food and stories.",
+          "checkedMinuteOffset": 17,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " The highlight is the parade,",
+          "speakerLabel": null,
+          "referenceTranslation": "Lo más destacado es el desfile,",
+          "userTranslation": "Lo mejor de todo es el desfile,",
+          "status": "yellow",
+          "reason": "La traducción es aceptable, pero 'Lo mejor de todo' no es la traducción más precisa de 'Lo más destacado'.",
+          "advice": "La particularidad es el desfile,",
+          "checkedMinuteOffset": 19,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " which features floats decorated with flowers and local symbols.",
+          "speakerLabel": null,
+          "referenceTranslation": "que presenta carrozas decoradas con flores y símbolos locales.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Many people from nearby towns also come to join the festivities.",
+          "speakerLabel": null,
+          "referenceTranslation": "Mucha gente de pueblos cercanos también viene a unirse a las festividades.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " The festival helps to keep the community spirit strong.",
+          "speakerLabel": null,
+          "referenceTranslation": "El festival ayuda a mantener fuerte el espíritu comunitario.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " It is a joyful time for everyone in San Miguel.",
+          "speakerLabel": null,
+          "referenceTranslation": "Es un momento alegre para todos en San Miguel.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        }
+      ]
+    },
+    {
+      "key": "es-3",
+      "title": "Planes y tarea",
+      "targetLang": "en",
+      "inputMode": "listening",
+      "isPinned": true,
+      "dayOffset": -6,
+      "time": "21:10",
+      "updatedMinuteOffset": 59,
+      "sourceText": "[[Mamá]]: Oye, cariño, ¿ya terminaste la tarea?\n[[Hijo]]: Casi, mamá. Solo me quedan un par de ejercicios de matemáticas.\n[[Mamá]]: Bien, porque ya casi son las diez. ¿Recuerdas a qué hora dijimos que tenías que estar en casa los viernes?\n[[Hijo]]: Sí, sí, a las once. No te preocupes, que no me voy a demorar.\n[[Mamá]]: De acuerdo. Y hablando de planes, ¿qué vas a hacer este fin de semana? ¿Algo interesante?\n[[Hijo]]: Pues, mis amigos y yo habíamos pensado ir al cine el sábado por la tarde. Hay una película nueva que quiero ver.\n[[Mamá]]: Mmm, ¿y a qué hora sería eso?\n[[Hijo]]: Probablemente saldríamos como a las seis. Volveríamos sobre las nueve o diez.\n[[Mamá]]: Suena bien. Pero, ¿podrías hacer un hueco para ayudarme a ordenar el garaje el domingo por la mañana?\n[[Hijo]]: ¡Ay, mamá! ¿El domingo por la mañana? Justo cuando más me gusta dormir.\n[[Mamá]]: ¡No me vengas con eso! Es solo un ratito, y así te liberas para hacer lo que quieras el resto del día.\n[[Hijo]]: Vale, vale, trato hecho. Pero me debes una, ¿eh?\n[[Mamá]]: ¡Claro que sí! Ahora, a terminar esos ejercicios.\n[[Hijo]]: ¡Sí, señora!",
+      "segments": [
+        {
+          "sourceText": "Oye, cariño, ¿ya terminaste la tarea?",
+          "speakerLabel": "Mamá",
+          "referenceTranslation": "Hey, honey, are you done with your homework?",
+          "userTranslation": "Hey sweetie, have you finished your homework?",
+          "status": "green",
+          "reason": "The user's translation accurately conveys the sentiment and meaning of the source text. 'Sweetie' is an appropriate and common term of endearment, and 'have you finished' is a natural equivalent to the Spanish perfect tense used here.",
+          "advice": "",
+          "checkedMinuteOffset": 3,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "\nCasi, mamá.",
+          "speakerLabel": "Hijo",
+          "referenceTranslation": "Almost, Mom.",
+          "userTranslation": "Almost, Mom.",
+          "status": "green",
+          "reason": "The translation perfectly conveys the meaning of the source text.",
+          "advice": "",
+          "checkedMinuteOffset": 5,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Solo me quedan un par de ejercicios de matemáticas.",
+          "speakerLabel": null,
+          "referenceTranslation": "I just have a couple of math exercises left.",
+          "userTranslation": "I've only got a couple of math problems left.",
+          "status": "green",
+          "reason": "The user's translation accurately conveys the meaning of the source text. 'Exercises' and 'problems' are often interchangeable in this context.",
+          "advice": "",
+          "checkedMinuteOffset": 7,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "\nBien, porque ya casi son las diez.",
+          "speakerLabel": "Mamá",
+          "referenceTranslation": "Good, because it's almost ten.",
+          "userTranslation": "Good, because it's nearly ten.",
+          "status": "green",
+          "reason": "The user's translation perfectly conveys the meaning of the source text. 'Nearly' and 'almost' are synonymous in this context.",
+          "advice": "",
+          "checkedMinuteOffset": 9,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " ¿Recuerdas a qué hora dijimos que tenías que estar en casa los viernes?",
+          "speakerLabel": null,
+          "referenceTranslation": "Do you remember what time we said you had to be home on Fridays?",
+          "userTranslation": "Do you remember what time we agreed you'd be home on Fridays?",
+          "status": "green",
+          "reason": "The user's translation accurately conveys the meaning of the source text with 'agreed' being a natural and fitting interpretation of 'dijimos' in this context.",
+          "advice": "",
+          "checkedMinuteOffset": 11,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "\nSí, sí, a las once.",
+          "speakerLabel": "Hijo",
+          "referenceTranslation": "Yes, yes, at eleven.",
+          "userTranslation": "Yes, yes, at eleven.",
+          "status": "green",
+          "reason": "The translation perfectly conveys the meaning of the source text.",
+          "advice": "",
+          "checkedMinuteOffset": 13,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " No te preocupes, que no me voy a demorar.",
+          "speakerLabel": null,
+          "referenceTranslation": "Don't worry, I won't be long.",
+          "userTranslation": "Don't worry, I won't be late.",
+          "status": "yellow",
+          "reason": "While 'late' is sometimes associated with 'demorarse', in this context it implies 'taking a long time' rather than 'being tardy'. The user's translation slightly alters this nuance.",
+          "advice": "Don't worry, I won't be long.",
+          "checkedMinuteOffset": 15,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "\nDe acuerdo.",
+          "speakerLabel": "Mamá",
+          "referenceTranslation": "Alright.",
+          "userTranslation": "Okay.",
+          "status": "green",
+          "reason": "The user's translation 'Okay' is a perfect and natural equivalent to 'De acuerdo' in English.",
+          "advice": "",
+          "checkedMinuteOffset": 17,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Y hablando de planes, ¿qué vas a hacer este fin de semana?",
+          "speakerLabel": null,
+          "referenceTranslation": "And speaking of plans, what are you doing this weekend?",
+          "userTranslation": "So what are you doing this weekend?",
+          "status": "red",
+          "reason": "The user's translation omits a significant part of the original meaning, specifically 'Y hablando de planes' (And speaking of plans). This changes the context and flow from the source.",
+          "advice": "And speaking of plans, what are you doing this weekend?",
+          "checkedMinuteOffset": 19,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " ¿Algo interesante?",
+          "speakerLabel": null,
+          "referenceTranslation": "Anything interesting?",
+          "userTranslation": "Anything fun?",
+          "status": "yellow",
+          "reason": "While 'fun' can sometimes overlap with 'interesting', it's not a direct equivalent. The user's translation slightly alters the nuance of the original question.",
+          "advice": "Anything interesting?",
+          "checkedMinuteOffset": 21,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "\nPues, mis amigos y yo habíamos pensado ir al cine el sábado por la tarde.",
+          "speakerLabel": "Hijo",
+          "referenceTranslation": "Well, my friends and I were thinking of going to the movies on Saturday afternoon.",
+          "userTranslation": "Well, my friends and I were thinking of going to the cinema on Saturday afternoon.",
+          "status": "green",
+          "reason": "The meaning is perfectly conveyed. 'Cinema' is a perfectly acceptable synonym for 'movies'.",
+          "advice": "",
+          "checkedMinuteOffset": 23,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Hay una película nueva que quiero ver.",
+          "speakerLabel": null,
+          "referenceTranslation": "There's a new movie I want to see.",
+          "userTranslation": "There's a new film I want to see.",
+          "status": "green",
+          "reason": "The user's translation perfectly conveys the meaning of the source text. 'Film' is a perfectly acceptable synonym for 'movie' in this context.",
+          "advice": "",
+          "checkedMinuteOffset": 25,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "\nMmm, ¿y a qué hora sería eso?",
+          "speakerLabel": "Mamá",
+          "referenceTranslation": "Mmm, and what time would that be?",
+          "userTranslation": "Hmm, and around what time would that be?",
+          "status": "green",
+          "reason": "The user's translation accurately conveys the meaning of the source text, with 'around what time' being a natural and acceptable nuance.",
+          "advice": "",
+          "checkedMinuteOffset": 27,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "\nProbablemente saldríamos como a las seis.",
+          "speakerLabel": "Hijo",
+          "referenceTranslation": "We'd probably leave around six.",
+          "userTranslation": "We'd probably head out around six.",
+          "status": "green",
+          "reason": "The user's translation perfectly conveys the meaning of the source text with natural English phrasing.",
+          "advice": "",
+          "checkedMinuteOffset": 29,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Volveríamos sobre las nueve o diez.",
+          "speakerLabel": null,
+          "referenceTranslation": "We'd be back around nine or ten.",
+          "userTranslation": "We'd come back at nine.",
+          "status": "red",
+          "reason": "The user's translation omits the uncertainty of the return time and only mentions one of the two timeframes given in the source text, significantly changing the meaning.",
+          "advice": "We'd be back around nine or ten.",
+          "checkedMinuteOffset": 31,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "\nSuena bien.",
+          "speakerLabel": "Mamá",
+          "referenceTranslation": "Sounds good.",
+          "userTranslation": "Sounds good.",
+          "status": "green",
+          "reason": "The user's translation perfectly conveys the meaning of the source text.",
+          "advice": "",
+          "checkedMinuteOffset": 33,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Pero, ¿podrías hacer un hueco para ayudarme a ordenar el garaje el domingo por la mañana?",
+          "speakerLabel": null,
+          "referenceTranslation": "But, could you make time to help me clean out the garage on Sunday morning?",
+          "userTranslation": "But could you find some time to help me tidy the garage on Sunday morning?",
+          "status": "green",
+          "reason": "The user's translation accurately conveys the meaning of the source text with natural English phrasing.",
+          "advice": "",
+          "checkedMinuteOffset": 35,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "\n¡Ay, mamá!",
+          "speakerLabel": "Hijo",
+          "referenceTranslation": "Oh, Mom!",
+          "userTranslation": "Oh, Mom!",
+          "status": "green",
+          "reason": "The translation perfectly conveys the exclamation of 'Oh, Mom!' and matches the reference exactly.",
+          "advice": "",
+          "checkedMinuteOffset": 37,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " ¿El domingo por la mañana?",
+          "speakerLabel": null,
+          "referenceTranslation": "Sunday morning?",
+          "userTranslation": "Sunday morning?",
+          "status": "green",
+          "reason": "The translation perfectly conveys the meaning of the source text.",
+          "advice": "",
+          "checkedMinuteOffset": 39,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Justo cuando más me gusta dormir.",
+          "speakerLabel": null,
+          "referenceTranslation": "Just when I most like to sleep.",
+          "userTranslation": "Right when I most want to sleep.",
+          "status": "yellow",
+          "reason": "While 'want to sleep' conveys a similar idea, 'gusta' specifically means 'like' or 'enjoy'. The original implies enjoyment of sleeping, not just a desire for it.",
+          "advice": "Just when I most like to sleep.",
+          "checkedMinuteOffset": 41,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "\n¡No me vengas con eso!",
+          "speakerLabel": "Mamá",
+          "referenceTranslation": "Don't give me that!",
+          "userTranslation": "Don't start with that!",
+          "status": "green",
+          "reason": "The user's translation accurately conveys the intended meaning of the original Spanish phrase, expressing dismissal or annoyance.",
+          "advice": "",
+          "checkedMinuteOffset": 43,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Es solo un ratito, y así te liberas para hacer lo que quieras el resto del día.",
+          "speakerLabel": null,
+          "referenceTranslation": "It's just for a little while, and then you'll be free to do whatever you want the rest of the day.",
+          "userTranslation": "It's only a moment, so you can do what you want later.",
+          "status": "yellow",
+          "reason": "The user's translation generally conveys the meaning but loses some of the nuance and completeness of the original Spanish. 'Later' is less precise than 'the rest of the day' and 'liberate yourself' is stronger than simply 'do'.",
+          "advice": "It's just for a little while, and then you'll be free to do whatever you want the rest of the day.",
+          "checkedMinuteOffset": 45,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "\nVale, vale, trato hecho.",
+          "speakerLabel": "Hijo",
+          "referenceTranslation": "Okay, okay, deal.",
+          "userTranslation": "Fine, fine, it's a deal.",
+          "status": "green",
+          "reason": "The user's translation perfectly conveys the meaning of the source text, with only minor stylistic differences that do not alter the core message.",
+          "advice": "",
+          "checkedMinuteOffset": 47,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Pero me debes una, ¿eh?",
+          "speakerLabel": null,
+          "referenceTranslation": "But you owe me one, okay?",
+          "userTranslation": "But you owe me one, alright?",
+          "status": "green",
+          "reason": "The user's translation accurately conveys the meaning of the source text with a perfectly natural phrasing.",
+          "advice": "",
+          "checkedMinuteOffset": 49,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "\n¡Claro que sí!",
+          "speakerLabel": "Mamá",
+          "referenceTranslation": "Of course!",
+          "userTranslation": "Of course!",
+          "status": "green",
+          "reason": "The user's translation perfectly conveys the meaning of the source text, which is a common affirmative expression.",
+          "advice": "",
+          "checkedMinuteOffset": 51,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Ahora, a terminar esos ejercicios.",
+          "speakerLabel": null,
+          "referenceTranslation": "Now, finish those exercises.",
+          "userTranslation": "Now, go finish those exercises.",
+          "status": "green",
+          "reason": "The user's translation accurately conveys the meaning of the source text, with 'go finish' being a natural and common way to express the imperative in English.",
+          "advice": "",
+          "checkedMinuteOffset": 53,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "\n¡Sí, señora!",
+          "speakerLabel": "Hijo",
+          "referenceTranslation": "Yes, ma'am!",
+          "userTranslation": "Yes, ma'am!",
+          "status": "green",
+          "reason": "The meaning is perfectly conveyed.",
+          "advice": "",
+          "checkedMinuteOffset": 55,
+          "clozeMetadata": null
+        }
+      ]
+    },
+    {
+      "key": "es-4",
+      "title": "Max y la señora García",
+      "targetLang": "en",
+      "inputMode": "dictation",
+      "isPinned": false,
+      "dayOffset": -8,
+      "time": "19:30",
+      "updatedMinuteOffset": 15,
+      "sourceText": "La señora García vive en una casa pequeña. Ella tiene un perro grande. El perro se llama Max. Max es muy amigable. Max y la señora García caminan en el parque. El parque es bonito. Hay muchos árboles en el parque. Max corre mucho. La señora García lee un libro. El sol brilla hoy. Es un día muy bueno.",
+      "segments": [
+        {
+          "sourceText": "La señora García vive en una casa pequeña.",
+          "speakerLabel": null,
+          "referenceTranslation": "Mrs. Garcia lives in a small house.",
+          "userTranslation": "",
+          "status": "green",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": 3,
+          "clozeMetadata": {
+            "display_template": "La señora García {0} en una casa {1}.",
+            "targets": [
+              {
+                "index": 0,
+                "answer": "vive",
+                "hint": "lives"
+              },
+              {
+                "index": 1,
+                "answer": "pequeña",
+                "hint": "small"
+              }
+            ]
+          }
+        },
+        {
+          "sourceText": " Ella tiene un perro grande.",
+          "speakerLabel": null,
+          "referenceTranslation": "She has a big dog.",
+          "userTranslation": "",
+          "status": "green",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": 5,
+          "clozeMetadata": {
+            "display_template": "Ella {0} un perro {1}.",
+            "targets": [
+              {
+                "index": 0,
+                "answer": "tiene",
+                "hint": "has"
+              },
+              {
+                "index": 1,
+                "answer": "grande",
+                "hint": "big"
+              }
+            ]
+          }
+        },
+        {
+          "sourceText": " El perro se llama Max.",
+          "speakerLabel": null,
+          "referenceTranslation": "The dog's name is Max.",
+          "userTranslation": "",
+          "status": "red",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": 7,
+          "clozeMetadata": {
+            "display_template": "El perro {0} Max.",
+            "targets": [
+              {
+                "index": 0,
+                "answer": "se llama",
+                "hint": "is called"
+              }
+            ]
+          }
+        },
+        {
+          "sourceText": " Max es muy amigable.",
+          "speakerLabel": null,
+          "referenceTranslation": "Max is very friendly.",
+          "userTranslation": "",
+          "status": "yellow",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": 9,
+          "clozeMetadata": {
+            "display_template": "Max es muy {0}.",
+            "targets": [
+              {
+                "index": 0,
+                "answer": "amigable",
+                "hint": "friendly"
+              }
+            ]
+          }
+        },
+        {
+          "sourceText": " Max y la señora García caminan en el parque.",
+          "speakerLabel": null,
+          "referenceTranslation": "Max and Mrs. Garcia walk in the park.",
+          "userTranslation": "",
+          "status": "red",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": 11,
+          "clozeMetadata": {
+            "display_template": "Max y la señora García {0} en el {1}.",
+            "targets": [
+              {
+                "index": 0,
+                "answer": "caminan",
+                "hint": "walk"
+              },
+              {
+                "index": 1,
+                "answer": "parque",
+                "hint": "park"
+              }
+            ]
+          }
+        },
+        {
+          "sourceText": " El parque es bonito.",
+          "speakerLabel": null,
+          "referenceTranslation": "The park is pretty.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": {
+            "display_template": "El parque es {0}.",
+            "targets": [
+              {
+                "index": 0,
+                "answer": "bonito",
+                "hint": "pretty"
+              }
+            ]
+          }
+        },
+        {
+          "sourceText": " Hay muchos árboles en el parque.",
+          "speakerLabel": null,
+          "referenceTranslation": "There are many trees in the park.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": {
+            "display_template": "{0} muchos {1} en el parque.",
+            "targets": [
+              {
+                "index": 0,
+                "answer": "Hay",
+                "hint": "There are"
+              },
+              {
+                "index": 1,
+                "answer": "árboles",
+                "hint": "trees"
+              }
+            ]
+          }
+        },
+        {
+          "sourceText": " Max corre mucho.",
+          "speakerLabel": null,
+          "referenceTranslation": "Max runs a lot.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": {
+            "display_template": "Max {0} {1}.",
+            "targets": [
+              {
+                "index": 0,
+                "answer": "corre",
+                "hint": "runs"
+              },
+              {
+                "index": 1,
+                "answer": "mucho",
+                "hint": "a lot"
+              }
+            ]
+          }
+        },
+        {
+          "sourceText": " La señora García lee un libro.",
+          "speakerLabel": null,
+          "referenceTranslation": "Mrs. Garcia reads a book.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": {
+            "display_template": "La señora García {0} un {1}.",
+            "targets": [
+              {
+                "index": 0,
+                "answer": "lee",
+                "hint": "reads"
+              },
+              {
+                "index": 1,
+                "answer": "libro",
+                "hint": "book"
+              }
+            ]
+          }
+        },
+        {
+          "sourceText": " El sol brilla hoy.",
+          "speakerLabel": null,
+          "referenceTranslation": "The sun is shining today.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": {
+            "display_template": "El sol {0} {1}.",
+            "targets": [
+              {
+                "index": 0,
+                "answer": "brilla",
+                "hint": "shines"
+              },
+              {
+                "index": 1,
+                "answer": "hoy",
+                "hint": "today"
+              }
+            ]
+          }
+        },
+        {
+          "sourceText": " Es un día muy bueno.",
+          "speakerLabel": null,
+          "referenceTranslation": "It is a very good day.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": {
+            "display_template": "Es un día muy {0}.",
+            "targets": [
+              {
+                "index": 0,
+                "answer": "bueno",
+                "hint": "good"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "key": "es-5",
+      "title": "Gutenberg y la imprenta",
+      "targetLang": "en",
+      "inputMode": "comprehension",
+      "isPinned": false,
+      "dayOffset": -11,
+      "time": "22:05",
+      "updatedMinuteOffset": 21,
+      "sourceText": "La irrupción de la imprenta de tipos móviles, atribuida a Johannes Gutenberg en el siglo XV, no solo supuso un punto de inflexión en la diseminación del saber, sino que alteró de forma radical la estructura del poder intelectual y religioso en Europa. Antes de su advenimiento, la producción textual era un proceso arduo y costoso, circunscrito casi exclusivamente a los claustros monásticos y a un puñado de eruditos con acceso a manuscritos celosamente guardados. Con la prensa, sin embargo, la reproducción de textos se democratizó, permitiendo que las ideas, tanto las ortodoxas como las heréticas, circularan con una celeridad sin precedentes, sembrando las semillas del Renacimiento y, subsecuentemente, de la Reforma Protestante. La capacidad de imprimir volúmenes idénticos facilitó la estandarización del conocimiento, al tiempo que fomentó la naciente alfabetización entre estratos sociales más amplios. Por consiguiente, la autoría y la propiedad intelectual comenzaron a perfilarse como conceptos centrales, desplazando la primacía de la tradición oral y la interpretación eclesiástica. Este cambio tecnológico, por ende, actuó como un catalizador formidable para la transformación de la mentalidad colectiva, impulsando un espíritu crítico y una secularización incipiente que resonarían a lo largo de los siglos venideros. El monopolio del conocimiento, otrora férreamente custodiado, se vio irremediablemente erosionado, abriendo compuertas a la libre especulación y al debate público. Fue, en suma, una revolución silenciosa pero implacable, cuyo eco se percibe aún hoy en nuestra sociedad de la información.",
+      "segments": [
+        {
+          "sourceText": "La irrupción de la imprenta de tipos móviles, atribuida a Johannes Gutenberg en el siglo XV, no solo supuso un punto de inflexión en la diseminación del saber, sino que alteró de forma radical la estructura del poder intelectual y religioso en Europa.",
+          "speakerLabel": null,
+          "referenceTranslation": "The advent of movable type printing, attributed to Johannes Gutenberg in the 15th century, was not only a turning point in the dissemination of knowledge but also radically altered the structure of intellectual and religious power in Europe.",
+          "userTranslation": "The arrival of movable type printing, credited to Johannes Gutenberg in the fifteenth century, was not just a turning point for spreading knowledge, it also completely changed how intellectual and religious power was structured in Europe.",
+          "status": "green",
+          "reason": "The user perfectly understood the source text, correctly identifying that the invention of the printing press was a turning point for knowledge dissemination and radically altered the structure of intellectual and religious power in Europe.",
+          "advice": "",
+          "checkedMinuteOffset": 3,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Antes de su advenimiento, la producción textual era un proceso arduo y costoso,",
+          "speakerLabel": null,
+          "referenceTranslation": "Before its advent, text production was an arduous and costly process,",
+          "userTranslation": "Before it appeared, producing texts was slow and expensive work,",
+          "status": "green",
+          "reason": "The user correctly understood that 'advenimiento' refers to an appearance or arrival, and that text production before this event was difficult and costly.",
+          "advice": "",
+          "checkedMinuteOffset": 5,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " circunscrito casi exclusivamente a los claustros monásticos y a un puñado de eruditos",
+          "speakerLabel": null,
+          "referenceTranslation": "confined almost exclusively to monastic cloisters and a handful of scholars",
+          "userTranslation": "restricted to religious buildings and a few wise men",
+          "status": "yellow",
+          "reason": "The user incorrectly translated 'claustros monásticos' as 'religious buildings' instead of 'monastic cloisters' or 'monastic confines,' losing the specific religious context. Additionally, 'eruditos' is better translated as 'scholars' rather than 'wise men,' which while close, doesn't quite capture the academic nuance.",
+          "advice": "restricted almost exclusively to monastic cloisters and a handful of scholars",
+          "checkedMinuteOffset": 7,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " con acceso a manuscritos celosamente guardados.",
+          "speakerLabel": null,
+          "referenceTranslation": "with access to jealously guarded manuscripts.",
+          "userTranslation": "who had access to manuscripts that were kept jealous.",
+          "status": "yellow",
+          "reason": "The user correctly understood most of the phrase, but 'celosamente' refers to the manner in which the manuscripts were guarded, not an attribute of the manuscripts themselves.",
+          "advice": "The manuscripts were guarded 'jealously' or 'diligently', implying great care and protectiveness, rather than the manuscripts being 'jealous'.",
+          "checkedMinuteOffset": 9,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Con la prensa, sin embargo, la reproducción de textos se democratizó,",
+          "speakerLabel": null,
+          "referenceTranslation": "However, with the printing press, the reproduction of texts became democratized,",
+          "userTranslation": "With the press, though, reproducing texts became something anyone could reach,",
+          "status": "yellow",
+          "reason": "The user used 'something anyone could reach' instead of 'democratized', which while close, doesn't quite capture the nuance of 'democratized' in this context.",
+          "advice": "With the press, however, the reproduction of texts became democratized.",
+          "checkedMinuteOffset": 11,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " permitiendo que las ideas, tanto las ortodoxas como las heréticas,",
+          "speakerLabel": null,
+          "referenceTranslation": "allowing ideas, both orthodox and heretical,",
+          "userTranslation": "allowing ideas, the orthodox ones as well as the strange ones,",
+          "status": "yellow",
+          "reason": "The user correctly translated 'orthodox' but misinterpreted 'heréticas' as 'strange' instead of its more precise meaning.",
+          "advice": "The correct understanding should be 'allowing ideas, both orthodox and heretical'.",
+          "checkedMinuteOffset": 13,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " circularan con una celeridad sin precedentes,",
+          "speakerLabel": null,
+          "referenceTranslation": "to circulate with unprecedented speed,",
+          "userTranslation": "to circulate with an unprecedented caution,",
+          "status": "red",
+          "reason": "The user mistranslated 'celeridad' (speed/swiftness) as 'caution', which completely reverses the meaning of the phrase.",
+          "advice": "The correct understanding should be 'to circulate with an unprecedented speed/swiftness'.",
+          "checkedMinuteOffset": 15,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " sembrando las semillas del Renacimiento y, subsecuentemente, de la Reforma Protestante.",
+          "speakerLabel": null,
+          "referenceTranslation": "sowing the seeds of the Renaissance and, subsequently, the Protestant Reformation.",
+          "userTranslation": "harvesting the seeds of the Renaissance and, as a result, of the Protestant Reform.",
+          "status": "red",
+          "reason": "The user translated 'sembrando' as 'harvesting', which is the opposite of 'sowing' or 'planting'. This fundamentally changes the meaning of the sentence.",
+          "advice": "sowing the seeds of the Renaissance and, subsequently, of the Protestant Reformation.",
+          "checkedMinuteOffset": 17,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " La capacidad de imprimir volúmenes idénticos facilitó la estandarización del conocimiento, al tiempo que fomentó la naciente alfabetización entre estratos sociales más amplios.",
+          "speakerLabel": null,
+          "referenceTranslation": "The ability to print identical volumes facilitated the standardization of knowledge, while also fostering nascent literacy among broader social strata.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Por consiguiente, la autoría y la propiedad intelectual comenzaron a perfilarse como conceptos centrales,",
+          "speakerLabel": null,
+          "referenceTranslation": "Consequently, authorship and intellectual property began to emerge as central concepts,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " desplazando la primacía de la tradición oral y la interpretación eclesiástica.",
+          "speakerLabel": null,
+          "referenceTranslation": "displacing the primacy of oral tradition and ecclesiastical interpretation.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Este cambio tecnológico, por ende, actuó como un catalizador formidable para la transformación de la mentalidad colectiva,",
+          "speakerLabel": null,
+          "referenceTranslation": "This technological change, therefore, acted as a formidable catalyst for the transformation of the collective mindset,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " impulsando un espíritu crítico y una secularización incipiente que resonarían a lo largo de los siglos venideros.",
+          "speakerLabel": null,
+          "referenceTranslation": "driving a critical spirit and an incipient secularization that would resonate for centuries to come.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " El monopolio del conocimiento, otrora férreamente custodiado,",
+          "speakerLabel": null,
+          "referenceTranslation": "The monopoly of knowledge, once fiercely guarded,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " se vio irremediablemente erosionado,",
+          "speakerLabel": null,
+          "referenceTranslation": "was irremediably eroded,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " abriendo compuertas a la libre especulación y al debate público.",
+          "speakerLabel": null,
+          "referenceTranslation": "opening floodgates to free speculation and public debate.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Fue, en suma, una revolución silenciosa pero implacable, cuyo eco se percibe aún hoy en nuestra sociedad de la información.",
+          "speakerLabel": null,
+          "referenceTranslation": "In short, it was a silent but relentless revolution, whose echo is still felt today in our information society.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        }
+      ]
+    },
+    {
+      "key": "es-6",
+      "title": "IA y Creatividad",
+      "targetLang": "en",
+      "inputMode": "comprehension",
+      "isPinned": false,
+      "dayOffset": -14,
+      "time": "18:50",
+      "updatedMinuteOffset": 25,
+      "sourceText": "Los avances en la inteligencia artificial están redefiniendo nuestra comprensión de la creatividad. Durante mucho tiempo, se creyó que la originalidad y la imaginación eran cualidades exclusivamente humanas, pero ahora las máquinas demuestran capacidades sorprendentes en campos como la composición musical y la creación de arte visual. Algoritmos complejos analizan vastas cantidades de datos para identificar patrones y luego generan obras que, en ocasiones, resultan indistinguibles de las creadas por artistas humanos.\n\nSin embargo, surge un debate fascinante sobre la verdadera naturaleza de esta \"creatividad\" artificial. ¿Está la IA simplemente imitando o está experimentando una forma emergente de conciencia? Si bien es innegable el impacto transformador de estas tecnologías, también nos obligan a reflexionar sobre qué significa ser verdaderamente creativo. La colaboración entre humanos y máquinas podría ser el camino a seguir, fusionando la intuición humana con la potencia computacional. A medida que seguimos explorando estas fronteras, el futuro de la expresión artística se presenta, sin duda, emocionante e impredecible.",
+      "segments": [
+        {
+          "sourceText": "Los avances en la inteligencia artificial están redefiniendo nuestra comprensión de la creatividad.",
+          "speakerLabel": null,
+          "referenceTranslation": "Advances in artificial intelligence are redefining our understanding of creativity.",
+          "userTranslation": "Advances in artificial intelligence are reshaping how we think about creativity.",
+          "status": "green",
+          "reason": "The user correctly translated \"redefiniendo nuestra comprensión\" as \"reshaping how we think\", capturing the core meaning of changing understanding.",
+          "advice": "",
+          "checkedMinuteOffset": 3,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Durante mucho tiempo, se creyó que la originalidad y la imaginación eran cualidades exclusivamente humanas,",
+          "speakerLabel": null,
+          "referenceTranslation": "For a long time, originality and imagination were believed to be exclusively human qualities,",
+          "userTranslation": "For a long time people believed originality and imagination were purely human traits,",
+          "status": "green",
+          "reason": "The user perfectly understood the meaning of the sentence. They correctly identified that originality and imagination were considered exclusively human traits for a long time.",
+          "advice": "",
+          "checkedMinuteOffset": 5,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " pero ahora las máquinas demuestran capacidades sorprendentes",
+          "speakerLabel": null,
+          "referenceTranslation": "but now machines demonstrate surprising capabilities",
+          "userTranslation": "but machines are now showing surprising abilities",
+          "status": "green",
+          "reason": "The user correctly translated the core meaning of the Spanish sentence, understanding that machines are now demonstrating surprising capabilities.",
+          "advice": "",
+          "checkedMinuteOffset": 7,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " en campos como la composición musical y la creación de arte visual.",
+          "speakerLabel": null,
+          "referenceTranslation": "in fields like musical composition and visual art creation.",
+          "userTranslation": "in areas like composing music and creating visual art.",
+          "status": "green",
+          "reason": "The user correctly translated the Spanish phrase into English, conveying the exact meaning of the original text.",
+          "advice": "",
+          "checkedMinuteOffset": 9,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Algoritmos complejos analizan vastas cantidades de datos para identificar patrones",
+          "speakerLabel": null,
+          "referenceTranslation": "Complex algorithms analyze vast amounts of data to identify patterns",
+          "userTranslation": "Complex algorithms go through huge amounts of data to spot patterns",
+          "status": "green",
+          "reason": "The user's translation accurately conveys that complex algorithms analyze vast amounts of data to identify patterns.",
+          "advice": "",
+          "checkedMinuteOffset": 11,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " y luego generan obras que, en ocasiones, resultan indistinguibles de las creadas por artistas humanos.",
+          "speakerLabel": null,
+          "referenceTranslation": "and then generate works that, at times, are indistinguishable from those created by human artists.",
+          "userTranslation": "and then produce works that are sometimes impossible to tell apart from ones made by human artists.",
+          "status": "green",
+          "reason": "The user's translation perfectly captures the meaning of the original Spanish text.",
+          "advice": "",
+          "checkedMinuteOffset": 13,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "\n\nSin embargo, surge un debate fascinante sobre la verdadera naturaleza de esta \"creatividad\" artificial.",
+          "speakerLabel": null,
+          "referenceTranslation": "However, a fascinating debate arises about the true nature of this artificial \"creativity\".",
+          "userTranslation": "Still, a fascinating debate is emerging about what this artificial creativity really is.",
+          "status": "green",
+          "reason": "The user correctly translated the core meaning of the sentence, including the notion of a debate emerging about artificial creativity.",
+          "advice": "",
+          "checkedMinuteOffset": 15,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " ¿Está la IA simplemente imitando o está experimentando una forma emergente de conciencia?",
+          "speakerLabel": null,
+          "referenceTranslation": "Is AI simply imitating or is it experiencing an emergent form of consciousness?",
+          "userTranslation": "Is AI just imitating, or is it going through some emerging form of consciousness?",
+          "status": "green",
+          "reason": "The user perfectly understood the meaning of the source text, asking whether AI is merely imitating or experiencing an emergent form of consciousness.",
+          "advice": "",
+          "checkedMinuteOffset": 17,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Si bien es innegable el impacto transformador de estas tecnologías,",
+          "speakerLabel": null,
+          "referenceTranslation": "While the transformative impact of these technologies is undeniable,",
+          "userTranslation": "While the transformative impact of these technologies can't be denied,",
+          "status": "green",
+          "reason": "The user correctly translated the core meaning of the sentence, accurately conveying that the transformative impact of the technologies is undeniable.",
+          "advice": "",
+          "checkedMinuteOffset": 19,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " también nos obligan a reflexionar sobre qué significa ser verdaderamente creativo.",
+          "speakerLabel": null,
+          "referenceTranslation": "they also force us to reflect on what it means to be truly creative.",
+          "userTranslation": "they also make us think about what being truly creative actually means.",
+          "status": "green",
+          "reason": "The user perfectly understood the meaning of the source text, conveying the nuance of 'obligan a reflexionar' as 'make us think about'.",
+          "advice": "",
+          "checkedMinuteOffset": 21,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " La colaboración entre humanos y máquinas podría ser el camino a seguir,",
+          "speakerLabel": null,
+          "referenceTranslation": "Human-machine collaboration could be the way forward,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " fusionando la intuición humana con la potencia computacional.",
+          "speakerLabel": null,
+          "referenceTranslation": "merging human intuition with computational power.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " A medida que seguimos explorando estas fronteras,",
+          "speakerLabel": null,
+          "referenceTranslation": "As we continue exploring these frontiers,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " el futuro de la expresión artística se presenta, sin duda, emocionante e impredecible.",
+          "speakerLabel": null,
+          "referenceTranslation": "the future of artistic expression is undoubtedly exciting and unpredictable.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "agarre",
+      "translation": "hold, grip",
+      "type": "word",
+      "partOfSpeech": "noun",
+      "targetLang": "en",
+      "sessionKey": "es-1",
+      "minuteOffset": 9
+    },
+    {
+      "term": "inexpugnable",
+      "translation": "impregnable, unassailable",
+      "type": "word",
+      "partOfSpeech": "adjective",
+      "targetLang": "en",
+      "sessionKey": "es-1",
+      "minuteOffset": 26
+    },
+    {
+      "term": "hacer un hueco",
+      "translation": "to make time for something",
+      "type": "phrase",
+      "partOfSpeech": null,
+      "targetLang": "en",
+      "sessionKey": "es-3",
+      "minuteOffset": 34
+    },
+    {
+      "term": "trato hecho",
+      "translation": "it's a deal",
+      "type": "phrase",
+      "partOfSpeech": null,
+      "targetLang": "en",
+      "sessionKey": "es-3",
+      "minuteOffset": 46
+    },
+    {
+      "term": "advenimiento",
+      "translation": "advent, coming",
+      "type": "word",
+      "partOfSpeech": "noun",
+      "targetLang": "en",
+      "sessionKey": "es-5",
+      "minuteOffset": 6
+    },
+    {
+      "term": "celeridad",
+      "translation": "speed, swiftness",
+      "type": "word",
+      "partOfSpeech": "noun",
+      "targetLang": "en",
+      "sessionKey": "es-5",
+      "minuteOffset": 17
+    },
+    {
+      "term": "indistinguibles",
+      "translation": "indistinguishable",
+      "type": "word",
+      "partOfSpeech": "adjective",
+      "targetLang": "en",
+      "sessionKey": "es-6",
+      "minuteOffset": 14
+    }
+  ]
+}

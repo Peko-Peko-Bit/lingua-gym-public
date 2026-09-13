@@ -1,0 +1,256 @@
+{
+  "_readme": [
+    "Blueprint for the guest demo data. This file is the only hand-written input to the pipeline;",
+    "everything downstream is either model output or the learner translations authored in",
+    "scripts/.demo-out/answers.json.",
+    "",
+    "Pipeline:  generate-demo-sources.mjs -> author-demo-answers.mjs -> (author by hand)",
+    "           -> grade-demo-sessions.mjs -> freeze-demo-sessions.mjs -> data/demo/*.json",
+    "",
+    "Source texts always come from the app's own /api/generate so that nothing third-party",
+    "ships in a public repository.",
+    "",
+    "The sidebar filters sessions by the currently selected study language (components/layout/",
+    "Sidebar.tsx:49), and the app defaults to es -> en. That is why es carries six sessions",
+    "covering all four practice modes, while the other languages carry one each: they exist to",
+    "prove multi-language support when the viewer switches the language selector.",
+    "",
+    "'grading.attempted' is a count or \"all\"; segments past it stay neutral and produce a",
+    "partial progress ring. 'yellow'/'red' are TARGETS, not facts — the real grader decides,",
+    "and grading-review.md reports every disagreement.",
+    "",
+    "Most sessions are deliberately left part-finished. /api/translate splits these texts into",
+    "~20 segments, and twenty-out-of-twenty graded on every card would read as a demo account",
+    "rather than a practice log — a real learner has more sessions on the go than finished. The",
+    "pinned skit is the one that is complete, so the sidebar still shows a full green ring."
+  ],
+  "sessions": [
+    {
+      "key": "es-1",
+      "sourceLang": "es",
+      "targetLang": "en",
+      "inputMode": "comprehension",
+      "generate": {
+        "type": "random",
+        "difficulty": "Intermediate"
+      },
+      "isPinned": false,
+      "dayOffset": -2,
+      "time": "20:15",
+      "grading": {
+        "attempted": 12,
+        "yellow": 2,
+        "red": 0
+      },
+      "note": "Newest card, left part-finished like a session you came back from."
+    },
+    {
+      "key": "es-2",
+      "sourceLang": "es",
+      "targetLang": "en",
+      "inputMode": "phrasing",
+      "generate": {
+        "type": "random",
+        "difficulty": "Pre-Intermediate"
+      },
+      "isPinned": false,
+      "dayOffset": -4,
+      "time": "08:40",
+      "grading": {
+        "attempted": 9,
+        "yellow": 2,
+        "red": 1
+      },
+      "note": "Exercises the phrasing swap: the learner produces Spanish from English."
+    },
+    {
+      "key": "es-3",
+      "sourceLang": "es",
+      "targetLang": "en",
+      "inputMode": "listening",
+      "generate": {
+        "type": "skit",
+        "difficulty": "Intermediate",
+        "skitCategory": "daily"
+      },
+      "isPinned": true,
+      "dayOffset": -6,
+      "time": "21:10",
+      "grading": {
+        "attempted": "all",
+        "yellow": 3,
+        "red": 0
+      },
+      "note": "Pinned and COMPLETE — the one full green ring in the sidebar. Speaker labels make the chip read 'Skit' and the mode icon Headphones; pinning the third card (not the newest, which would sort first anyway) puts the most informative card at the top of a screenshot."
+    },
+    {
+      "key": "es-4",
+      "sourceLang": "es",
+      "targetLang": "en",
+      "inputMode": "dictation",
+      "generate": {
+        "type": "random",
+        "difficulty": "Beginner"
+      },
+      "isPinned": false,
+      "dayOffset": -8,
+      "time": "19:30",
+      "grading": {
+        "attempted": 5,
+        "yellow": 2,
+        "red": 1
+      },
+      "note": "Cloze is generated for every segment (the app prepares all of them), but only the first few are answered — partial ring."
+    },
+    {
+      "key": "es-5",
+      "sourceLang": "es",
+      "targetLang": "en",
+      "inputMode": "comprehension",
+      "generate": {
+        "type": "random",
+        "difficulty": "Advanced"
+      },
+      "isPinned": false,
+      "dayOffset": -11,
+      "time": "22:05",
+      "grading": {
+        "attempted": 8,
+        "yellow": 3,
+        "red": 2
+      },
+      "note": "Hardest text, second partial ring, carries most of the red."
+    },
+    {
+      "key": "es-6",
+      "sourceLang": "es",
+      "targetLang": "en",
+      "inputMode": "comprehension",
+      "generate": {
+        "type": "random",
+        "difficulty": "Intermediate"
+      },
+      "isPinned": false,
+      "dayOffset": -14,
+      "time": "18:50",
+      "grading": {
+        "attempted": 10,
+        "yellow": 0,
+        "red": 0
+      },
+      "note": "Clean run — every attempted segment green, no corrections. Balances the sessions that carry the red."
+    },
+    {
+      "key": "en-1",
+      "sourceLang": "en",
+      "targetLang": "ja",
+      "inputMode": "comprehension",
+      "generate": {
+        "type": "random",
+        "difficulty": "Intermediate"
+      },
+      "isPinned": false,
+      "dayOffset": -3,
+      "time": "12:25",
+      "grading": {
+        "attempted": 6,
+        "yellow": 1,
+        "red": 0
+      },
+      "note": "Feedback comes back in Japanese — shows the grader localises to the learner's language."
+    },
+    {
+      "key": "ja-1",
+      "sourceLang": "ja",
+      "targetLang": "en",
+      "inputMode": "comprehension",
+      "generate": {
+        "type": "random",
+        "difficulty": "Intermediate"
+      },
+      "isPinned": false,
+      "dayOffset": -5,
+      "time": "07:45",
+      "grading": {
+        "attempted": 6,
+        "yellow": 1,
+        "red": 0
+      },
+      "note": "CJK segmentation."
+    },
+    {
+      "key": "ko-1",
+      "sourceLang": "ko",
+      "targetLang": "ja",
+      "inputMode": "comprehension",
+      "generate": {
+        "type": "random",
+        "difficulty": "Pre-Intermediate"
+      },
+      "isPinned": false,
+      "dayOffset": -7,
+      "time": "21:40",
+      "grading": {
+        "attempted": 6,
+        "yellow": 1,
+        "red": 0
+      }
+    },
+    {
+      "key": "ca-1",
+      "sourceLang": "ca",
+      "targetLang": "es",
+      "inputMode": "comprehension",
+      "generate": {
+        "type": "random",
+        "difficulty": "Intermediate"
+      },
+      "isPinned": false,
+      "dayOffset": -9,
+      "time": "17:15",
+      "grading": {
+        "attempted": 6,
+        "yellow": 1,
+        "red": 0
+      },
+      "note": "Feedback in Spanish."
+    },
+    {
+      "key": "zh-1",
+      "sourceLang": "zh",
+      "targetLang": "ja",
+      "inputMode": "comprehension",
+      "generate": {
+        "type": "random",
+        "difficulty": "Pre-Intermediate"
+      },
+      "isPinned": false,
+      "dayOffset": -12,
+      "time": "13:05",
+      "grading": {
+        "attempted": 6,
+        "yellow": 1,
+        "red": 0
+      }
+    },
+    {
+      "key": "fr-1",
+      "sourceLang": "fr",
+      "targetLang": "es",
+      "inputMode": "comprehension",
+      "generate": {
+        "type": "random",
+        "difficulty": "Intermediate"
+      },
+      "isPinned": false,
+      "dayOffset": -15,
+      "time": "20:00",
+      "grading": {
+        "attempted": 6,
+        "yellow": 1,
+        "red": 0
+      },
+      "note": "French exists mainly so the vocabulary tab is not the only thing populated when the viewer switches to fr — LinguaCoach seeds French vocabulary into the shared table, and GET /api/vocabulary does not filter by source_app."
+    }
+  ]
+}

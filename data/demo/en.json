@@ -1,0 +1,172 @@
+{
+  "sourceLang": "en",
+  "sessions": [
+    {
+      "key": "en-1",
+      "title": "Gut-Brain Axis",
+      "targetLang": "ja",
+      "inputMode": "comprehension",
+      "isPinned": false,
+      "dayOffset": -3,
+      "time": "12:25",
+      "updatedMinuteOffset": 17,
+      "sourceText": "Recent studies have begun to illuminate the intricate connection between gut bacteria and mental well-being, a field often referred to as the \"gut-brain axis.\" For a long time, the impact of our intestinal microbes was primarily understood in terms of digestion and immunity, but now researchers are uncovering a far more profound influence on mood and even cognitive function. It appears that certain strains of bacteria can produce neurotransmitters, such as serotonin, which are vital for regulating emotions and preventing depression. Furthermore, the inflammatory signals originating from an unbalanced gut microbiome might directly affect brain activity, potentially exacerbating conditions like anxiety. Understanding this complex interplay offers promising avenues for developing novel therapeutic strategies that go beyond traditional pharmaceuticals. For instance, interventions like targeted probiotics or dietary modifications could soon become a cornerstone of mental healthcare. While much remains to be discovered, the prospect of influencing mental health through the gut is an exciting development. We are only just scratching the surface of what these microscopic inhabitants can tell us about our overall health. The implications for holistic wellness are considerable, suggesting that a healthy gut might be foundational for a healthy mind.",
+      "segments": [
+        {
+          "sourceText": "Recent studies have begun to illuminate the intricate connection between gut bacteria and mental well-being, a field often referred to as the \"gut-brain axis.\"",
+          "speakerLabel": null,
+          "referenceTranslation": "最近の研究により、腸内細菌と精神的健康との間の複雑な関連性が明らかになり始めており、これは「腸脳相関」と呼ばれる分野です。",
+          "userTranslation": "最近の研究で、腸内細菌と心の健康のあいだにある複雑なつながりが見えてきた。これは「腸脳相関」と呼ばれる分野だ。",
+          "status": "green",
+          "reason": "ユーザーは原文の意味を正確に理解しており、「腸内細菌と心の健康の複雑なつながり」と「腸脳相関」という専門用語も適切に訳しています。",
+          "advice": "",
+          "checkedMinuteOffset": 3,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " For a long time, the impact of our intestinal microbes was primarily understood in terms of digestion and immunity,",
+          "speakerLabel": null,
+          "referenceTranslation": "腸内細菌の影響は、長らく消化と免疫の観点から理解されていましたが、",
+          "userTranslation": "腸内の微生物の働きは、長いあいだ消化と免疫の面から理解されてきたが、",
+          "status": "green",
+          "reason": "ユーザーは、文章の主要な意味、すなわち腸内微生物の働きが主に消化と免疫の観点から理解されてきたという点を正確に把握しています。",
+          "advice": "",
+          "checkedMinuteOffset": 5,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " but now researchers are uncovering a far more profound influence on mood and even cognitive function.",
+          "speakerLabel": null,
+          "referenceTranslation": "現在、研究者たちは気分や認知機能にも、はるかに深い影響があることを明らかにしています。",
+          "userTranslation": "いまや研究者たちは、気分や認知機能にまで及ぶもっと深い影響を明らかにしつつある。",
+          "status": "green",
+          "reason": "ユーザーは「far more profound influence」を「もっと深い影響」と理解しており、全体の意味が正しく把握されています。",
+          "advice": "",
+          "checkedMinuteOffset": 7,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " It appears that certain strains of bacteria can produce neurotransmitters, such as serotonin, which are vital for regulating emotions and preventing depression.",
+          "speakerLabel": null,
+          "referenceTranslation": "一部の細菌株は、感情の調整やうつ病の予防に不可欠なセロトニンなどの神経伝達物質を生成できるようです。",
+          "userTranslation": "特定の菌株はセロトニンのような神経伝達物質を作り出せるらしく、これは感情の調整やうつの予防に欠かせない。",
+          "status": "green",
+          "reason": "ユーザーは原文の意味を正確に理解しており、主要な情報や関係性を正しく把握しています。",
+          "advice": "",
+          "checkedMinuteOffset": 9,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Furthermore, the inflammatory signals originating from an unbalanced gut microbiome might directly affect brain activity, potentially exacerbating conditions like anxiety.",
+          "speakerLabel": null,
+          "referenceTranslation": "さらに、腸内細菌叢の不均衡から生じる炎症性シグナルは、脳活動に直接影響を与え、不安などの症状を悪化させる可能性があります。",
+          "userTranslation": "さらに、腸内環境が乱れると炎症が起きて、脳の働きが悪くなり不安になる。",
+          "status": "yellow",
+          "reason": "ユーザーの翻訳では、腸内細菌叢の不均衡から生じる炎症シグナルが脳活動に直接影響を与える可能性があり、不安などの状態を悪化させる可能性があるという点が、脳の働きが悪くなるとの表現に留まっており、悪化させる可能性というニュアンスが少し不足しています。",
+          "advice": "さらに、バランスの取れていない腸内細菌叢から生じる炎症シグナルは脳活動に直接影響を与え、不安のような症状を悪化させる可能性があります。",
+          "checkedMinuteOffset": 11,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " Understanding this complex interplay offers promising avenues for developing novel therapeutic strategies that go beyond traditional pharmaceuticals.",
+          "speakerLabel": null,
+          "referenceTranslation": "この複雑な相互作用の理解は、従来の医薬品を超えた新しい治療戦略の開発への有望な道筋を提供します。",
+          "userTranslation": "この複雑な相互作用がわかれば、従来の薬にとどまらない新しい治療法を開発する道が開ける。",
+          "status": "green",
+          "reason": "ユーザーは、原文の「複雑な相互作用の理解が、従来の医薬品を超えた新しい治療戦略の開発の有望な道筋を提供する」という核心的な意味を正確に把握しています。",
+          "advice": "",
+          "checkedMinuteOffset": 13,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " For instance, interventions like targeted probiotics or dietary modifications could soon become a cornerstone of mental healthcare.",
+          "speakerLabel": null,
+          "referenceTranslation": "例えば、標的型プロバイオティクスや食事療法などの介入が、精神科医療の礎となる可能性があります。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " While much remains to be discovered, the prospect of influencing mental health through the gut is an exciting development.",
+          "speakerLabel": null,
+          "referenceTranslation": "まだ発見されていないことは多くありますが、腸を通じてメンタルヘルスに影響を与える可能性はエキサイティングな進展です。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " We are only just scratching the surface",
+          "speakerLabel": null,
+          "referenceTranslation": "私たちはまだ表面をかすめたにすぎません",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " of what these microscopic inhabitants can tell us",
+          "speakerLabel": null,
+          "referenceTranslation": "これらの微細な住人が私たちに何を伝えられるかについて",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " about our overall health.",
+          "speakerLabel": null,
+          "referenceTranslation": "私たちの全体的な健康についてです。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " The implications for holistic wellness are considerable,",
+          "speakerLabel": null,
+          "referenceTranslation": "ホリスティックウェルネスへの影響はかなりのもので、",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " suggesting that a healthy gut might be foundational for a healthy mind.",
+          "speakerLabel": null,
+          "referenceTranslation": "健康な腸が健康な心の基盤になる可能性を示唆しています。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "gut-brain axis",
+      "translation": "腸脳相関",
+      "type": "phrase",
+      "partOfSpeech": null,
+      "targetLang": "ja",
+      "sessionKey": "en-1",
+      "minuteOffset": 5
+    }
+  ]
+}

@@ -1,6 +1,13 @@
 import Link from "next/link";
 
-export default function AuthErrorPage() {
+export default async function AuthErrorPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ reason?: string }>;
+}) {
+  const { reason } = await searchParams;
+  const notAllowed = reason === "not_allowed";
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-[var(--bg-base)]">
       <div className="flex flex-col items-center gap-6 px-8 py-10 rounded-2xl
@@ -12,14 +19,24 @@ export default function AuthErrorPage() {
             LinguaGym
           </span>
           <span className="text-sm text-[var(--text-dim)]">
-            Sign-in failed
+            {notAllowed ? "Access restricted" : "Sign-in failed"}
           </span>
         </div>
 
         <p className="text-center text-sm text-[var(--text-secondary)]">
-          Something went wrong while signing you in.
-          <br />
-          Please try again.
+          {notAllowed ? (
+            <>
+              Google sign-in is limited to approved accounts.
+              <br />
+              Try the guest mode to explore the app.
+            </>
+          ) : (
+            <>
+              Something went wrong while signing you in.
+              <br />
+              Please try again.
+            </>
+          )}
         </p>
 
         <Link

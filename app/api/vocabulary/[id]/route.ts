@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createServerClient } from "@/lib/supabase-server";
 import { createAuthServerClient } from "@/lib/supabase-auth-server";
+import { sanitizeVocabularyType, sanitizePartOfSpeech } from "@/lib/vocabulary-taxonomy";
 
 
 // ---------------------------------------------------------------------------
@@ -48,9 +49,18 @@ export async function PATCH(
   };
   const sb = createServerClient();
 
+  // type is CHECK-constrained in the shared table: an unexpected value would
+  // fail the whole UPDATE, losing the base form and translation too.
+  const safeType = sanitizeVocabularyType(type);
+
   const { error } = await sb
     .from("vocabulary")
-    .update({ term, part_of_speech: partOfSpeech, translation, type: type ?? "word" })
+    .update({
+      term,
+      part_of_speech: sanitizePartOfSpeech(partOfSpeech, safeType),
+      translation,
+      type: safeType,
+    })
     .eq("id", id)
     .eq("user_id", user.id);
 

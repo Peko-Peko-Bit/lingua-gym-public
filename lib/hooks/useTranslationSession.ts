@@ -240,12 +240,15 @@ export function useTranslationSession() {
           body: JSON.stringify({ term, sourceLang }),
         });
         if (!normalizeRes.ok) return;
-        const { baseTerm, type: vocabType, partOfSpeech } = await normalizeRes.json() as {
+        const { baseTerm, type: vocabType, partOfSpeech, normalized } = await normalizeRes.json() as {
           baseTerm: string;
           type: "word" | "phrase";
           partOfSpeech: string | null;
+          normalized: boolean;
         };
-        if (!baseTerm) return;
+        // The route answers 200 even when the lookup fails, so this flag is the
+        // only signal — otherwise we PATCH the row back to the values it already has.
+        if (!normalized || !baseTerm) return;
 
         let finalTranslation = translation;
         if (baseTerm !== term) {

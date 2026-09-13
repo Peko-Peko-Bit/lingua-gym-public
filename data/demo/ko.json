@@ -1,0 +1,150 @@
+{
+  "sourceLang": "ko",
+  "sessions": [
+    {
+      "key": "ko-1",
+      "title": "펭귄의 모든 것",
+      "targetLang": "ja",
+      "inputMode": "comprehension",
+      "isPinned": false,
+      "dayOffset": -7,
+      "time": "21:40",
+      "updatedMinuteOffset": 17,
+      "sourceText": "오늘은 제가 좋아하는 동물인 펭귄에 대해 이야기하고 싶어요. 펭귄은 정말 독특한 새예요. 왜냐하면 날 수는 없지만 헤엄을 아주 잘 치거든요. 남극과 같은 추운 지역에 사는 펭귄들이 많아요. 그들은 두꺼운 깃털과 지방층 덕분에 추운 날씨를 잘 견딜 수 있어요. 펭귄들은 주로 물고기와 크릴새우를 먹고 살아요. 무리를 지어 함께 생활하는 것을 좋아하며, 서로 의지하며 살아요. 알을 낳으면 수컷과 암컷이 번갈아 알을 품고 새끼를 돌봐요. 아기 펭귄들은 아주 귀엽고 작아요. 펭귄들의 이런 모습이 저는 참 신기하고 대견하게 느껴져요.",
+      "segments": [
+        {
+          "sourceText": "오늘은 제가 좋아하는 동물인 펭귄에 대해 이야기하고 싶어요.",
+          "speakerLabel": null,
+          "referenceTranslation": "今日は好きな動物、ペンギンについて話したいです。",
+          "userTranslation": "今日は私の好きな動物であるペンギンについて話したいと思います。",
+          "status": "green",
+          "reason": "ユーザーは提示された韓国語の文章の意味を正確に理解し、日本語に翻訳しています。",
+          "advice": "",
+          "checkedMinuteOffset": 3,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " 펭귄은 정말 독특한 새예요.",
+          "speakerLabel": null,
+          "referenceTranslation": "ペンギンはとてもユニークな鳥です。",
+          "userTranslation": "ペンギンは本当に独特な鳥です。",
+          "status": "green",
+          "reason": "ユーザーは原文の意味を完全に正しく理解しています。「펭귄은 정말 독특한 새예요」が「ペンギンは本当に独特な鳥です」と翻訳されており、意図された意味が完全に伝わっています。",
+          "advice": "",
+          "checkedMinuteOffset": 5,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " 왜냐하면 날 수는 없지만 헤엄을 아주 잘 치거든요.",
+          "speakerLabel": null,
+          "referenceTranslation": "なぜなら、飛べませんが、泳ぎがとても上手だからです。",
+          "userTranslation": "というのも、飛べませんが泳ぎがとても上手だからです。",
+          "status": "green",
+          "reason": "ユーザーは原文の意味を完全に理解しています。",
+          "advice": "",
+          "checkedMinuteOffset": 7,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " 남극과 같은 추운 지역에 사는 펭귄들이 많아요.",
+          "speakerLabel": null,
+          "referenceTranslation": "南極のような寒い地域に住むペンギンが多いです。",
+          "userTranslation": "南極のような寒い地域に住むペンギンがたくさんいます。",
+          "status": "green",
+          "reason": "ユーザーは源言語の意味を完全に理解しています。",
+          "advice": "",
+          "checkedMinuteOffset": 9,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " 그들은 두꺼운 깃털과 지방층 덕분에 추운 날씨를 잘 견딜 수 있어요.",
+          "speakerLabel": null,
+          "referenceTranslation": "彼らは厚い羽毛と脂肪層のおかげで、寒い気候に耐えられます。",
+          "userTranslation": "彼らは厚い羽のおかげで寒さに強いです。",
+          "status": "yellow",
+          "reason": "ユーザーは「厚い羽」が寒さに強い理由であることは理解していますが、「脂肪層」というもう一つの重要な要因を見落としています。",
+          "advice": "彼らは厚い羽と脂肪層のおかげで寒い天候によく耐えることができます。",
+          "checkedMinuteOffset": 11,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " 펭귄들은 주로 물고기와 크릴새우를 먹고 살아요.",
+          "speakerLabel": null,
+          "referenceTranslation": "ペンギンは主に魚やオキアミを食べて生きています。",
+          "userTranslation": "ペンギンは主に魚やオキアミを食べて暮らしています。",
+          "status": "green",
+          "reason": "ユーザーは原文の意味を正確に理解しています。",
+          "advice": "",
+          "checkedMinuteOffset": 13,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " 무리를 지어 함께 생활하는 것을 좋아하며,",
+          "speakerLabel": null,
+          "referenceTranslation": "群れをなして一緒に生活することが好きで、",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " 서로 의지하며 살아요.",
+          "speakerLabel": null,
+          "referenceTranslation": "互いに頼って生きています。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " 알을 낳으면 수컷과 암컷이 번갈아 알을 품고 새끼를 돌봐요.",
+          "speakerLabel": null,
+          "referenceTranslation": "卵を産むと、オスとメスが交互に卵を温め、雛を世話します。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " 아기 펭귄들은 아주 귀엽고 작아요.",
+          "speakerLabel": null,
+          "referenceTranslation": "赤ちゃんペンギンはとても可愛くて小さいです。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": " 펭귄들의 이런 모습이 저는 참 신기하고 대견하게 느껴져요.",
+          "speakerLabel": null,
+          "referenceTranslation": "ペンギンたちのそんな姿が、私はとても不思議で、頼もしく感じられます。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "지방층",
+      "translation": "脂肪層",
+      "type": "word",
+      "partOfSpeech": "noun",
+      "targetLang": "ja",
+      "sessionKey": "ko-1",
+      "minuteOffset": 11
+    }
+  ]
+}

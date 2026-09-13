@@ -1,0 +1,238 @@
+{
+  "sourceLang": "zh",
+  "sessions": [
+    {
+      "key": "zh-1",
+      "title": "星际穿越观后感",
+      "targetLang": "ja",
+      "inputMode": "comprehension",
+      "isPinned": false,
+      "dayOffset": -12,
+      "time": "13:05",
+      "updatedMinuteOffset": 17,
+      "sourceText": "上个周末，我和朋友们一起去看了最新的科幻电影《星际穿越》。这部电影的故事非常吸引人，讲述了宇航员们为了寻找新的家园，穿越虫洞去往遥远星系的故事。电影里的特效做得非常逼真，太空的景象和外星的星球都好像真的展现在我们眼前一样。我特别喜欢其中的一个情节，就是主人公为了拯救地球而做出的巨大牺牲。虽然电影的时长有点长，但是我们看的时候一点也不觉得无聊。看完电影后，我们还讨论了电影里的科学概念，比如黑洞和时间膨胀。我觉得这部电影不仅娱乐性很强，还让我们思考了很多关于宇宙和人类未来的问题。我的朋友们也都觉得这部电影非常棒，我们都推荐大家去看。下次有机会，我还想再看一遍，因为有些细节我可能第一次没有注意到。总之，《星际穿越》是一部值得一看的好电影。",
+      "segments": [
+        {
+          "sourceText": "上个周末，我和朋友们一起去看了最新的科幻电影《星际穿越》。",
+          "speakerLabel": null,
+          "referenceTranslation": "先週末、友達と最新SF映画「インターステラー」を見に行きました。",
+          "userTranslation": "先週末、友達と一緒に最新のSF映画『インターステラー』を見に行きました。",
+          "status": "green",
+          "reason": "ユーザーは、日付、行動、映画の内容（最新のSF映画）、そして具体的な映画のタイトルまですべて正しく理解しています。意味は完璧に伝わっています。",
+          "advice": "",
+          "checkedMinuteOffset": 3,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "这部电影的故事非常吸引人，",
+          "speakerLabel": null,
+          "referenceTranslation": "この映画の物語はとても魅力的で、",
+          "userTranslation": "この映画のストーリーはとても引き込まれるもので、",
+          "status": "green",
+          "reason": "ユーザーは「吸引人」を「引き込まれるもの」と正しく解釈しており、映画のストーリーが魅力的で人を惹きつけるという意味を完全に理解しています。",
+          "advice": "",
+          "checkedMinuteOffset": 5,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "讲述了宇航员们为了寻找新的家园，",
+          "speakerLabel": null,
+          "referenceTranslation": "宇宙飛行士たちが新しい故郷を探すため、",
+          "userTranslation": "宇宙飛行士たちが新しい住む場所を探すために、",
+          "status": "green",
+          "reason": "ユーザーは源言語の意味を完全に正確に理解しています。",
+          "advice": "",
+          "checkedMinuteOffset": 7,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "穿越虫洞去往遥远星系的故事。",
+          "speakerLabel": null,
+          "referenceTranslation": "ワームホールを抜けて遠い銀河へ旅する物語です。",
+          "userTranslation": "ワームホールを通って遠い銀河へ向かう物語です。",
+          "status": "green",
+          "reason": "ユーザーは「ワームホールを通り、遠い銀河へ向かう物語」という原文の核心を正確に理解しています。",
+          "advice": "",
+          "checkedMinuteOffset": 9,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "电影里的特效做得非常逼真，",
+          "speakerLabel": null,
+          "referenceTranslation": "映画の特殊効果はとてもリアルで、",
+          "userTranslation": "映画の映像はとてもきれいで、",
+          "status": "red",
+          "reason": "ユーザーは「特效（特殊効果、CG）」を「映像」と誤解しており、「逼真（リアル）」の意味も捉えられていません。",
+          "advice": "映画の特殊効果はとてもリアルで、",
+          "checkedMinuteOffset": 11,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "太空的景象和外星的星球都好像真的展现在我们眼前一样。",
+          "speakerLabel": null,
+          "referenceTranslation": "宇宙の光景や異星の惑星が目の前に現れたかのようでした。",
+          "userTranslation": "宇宙の風景も異星の惑星も、まるで目の前に広がっているようでした。",
+          "status": "green",
+          "reason": "ユーザーは原文の「太空的景象和外星的星球都好像真的展现在我们眼前一样。」の意味を正確に理解しています。",
+          "advice": "",
+          "checkedMinuteOffset": 13,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "我特别喜欢其中的一个情节，",
+          "speakerLabel": null,
+          "referenceTranslation": "特に気に入ったのは、",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "就是主人公为了拯救地球而做出的巨大牺牲。",
+          "speakerLabel": null,
+          "referenceTranslation": "主人公が地球を救うために払った大きな犠牲です。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "虽然电影的时长有点长，",
+          "speakerLabel": null,
+          "referenceTranslation": "映画の上映時間は少し長めでしたが、",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "但是我们看的时候一点也不觉得无聊。",
+          "speakerLabel": null,
+          "referenceTranslation": "見ている間は全く退屈しませんでした。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "看完电影后，我们还讨论了电影里的科学概念，",
+          "speakerLabel": null,
+          "referenceTranslation": "映画を見た後、私達は映画に出てくる科学的概念、",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "比如黑洞和时间膨胀。",
+          "speakerLabel": null,
+          "referenceTranslation": "例えばブラックホールや時間の遅延について話し合いました。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "我觉得这部电影不仅娱乐性很强，",
+          "speakerLabel": null,
+          "referenceTranslation": "この映画はエンターテイメント性が高いだけでなく、",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "还让我们思考了很多关于宇宙和人类未来的问题。",
+          "speakerLabel": null,
+          "referenceTranslation": "宇宙や人類の未来について多くのことを考えさせられました。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "我的朋友们也都觉得这部电影非常棒，",
+          "speakerLabel": null,
+          "referenceTranslation": "私の友人たちも皆、この映画は素晴らしいと絶賛しており、",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "我们都推荐大家去看。",
+          "speakerLabel": null,
+          "referenceTranslation": "皆に勧めています。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "下次有机会，我还想再看一遍，",
+          "speakerLabel": null,
+          "referenceTranslation": "また機会があれば、もう一度見たいです、",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "因为有些细节我可能第一次没有注意到。",
+          "speakerLabel": null,
+          "referenceTranslation": "なぜなら、いくつか見逃したディテールがあったかもしれないからです。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "总之，《星际穿越》是一部值得一看的好电影。",
+          "speakerLabel": null,
+          "referenceTranslation": "とにかく、「インターステラー」は見る価値のある素晴らしい映画です。",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "特效",
+      "translation": "特殊効果",
+      "type": "word",
+      "partOfSpeech": "noun",
+      "targetLang": "ja",
+      "sessionKey": "zh-1",
+      "minuteOffset": 10
+    }
+  ]
+}

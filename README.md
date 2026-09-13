@@ -6,7 +6,20 @@ LinguaGym turns any text in 10 languages into a personal translation workout. An
 
 **Live:** https://linguagym.pekobit.com/
 
-<!-- TODO: add screenshots -->
+<p align="center">
+  <img src=".github/screenshots/segment-scoring.webp" width="820" alt="Source text on the left, your translation graded segment by segment on the right">
+</p>
+
+<p align="center">
+  <img src=".github/screenshots/four-modes.webp" width="405" alt="The four practice modes: comprehension, phrasing, listening and dictation">
+  <img src=".github/screenshots/languages.webp" width="405" alt="Study language picker with ten languages">
+</p>
+
+<p align="center">
+  <img src=".github/screenshots/vocabulary.webp" width="220" alt="Vocabulary list with parts of speech and the session each word came from">
+</p>
+
+<p align="center"><sub>Segment-by-segment grading · the four practice modes and the ten study languages · the vocabulary list. Screens show the guest demo data.</sub></p>
 
 ## Features
 
@@ -23,7 +36,7 @@ LinguaGym turns any text in 10 languages into a personal translation workout. An
 - **Vocabulary book** — select any word or phrase to look it up and save it; single words are normalized to their dictionary form (lemma + part of speech) by an LLM in the background, and the whole book exports to CSV
 - **10 languages** — Spanish, English, Japanese, Korean, Catalan, French, German, Portuguese, Chinese, Italian; the first five come with their own UI color theme
 - **Sessions & progress** — every practice session autosaves with per-segment check status; the sidebar shows a progress ring per session, with pin / rename / delete
-- **Guest mode** — one-click anonymous sign-in to try the app; guest data is wiped automatically after 24 hours by a scheduled Supabase Edge Function
+- **Guest mode** — one-click anonymous sign-in to try the app, pre-filled with a two-week sample history: twelve practice sessions across all four modes and seven study languages, so the sidebar, the progress rings and the vocabulary book are populated from the first screen; guest data is wiped automatically after 24 hours by a scheduled Supabase Edge Function
 - **PWA** — installable, mobile-first responsive layout
 - **Part of a learning ecosystem** — shares its Supabase backend (auth, vocabulary, study data) with **LinguaCoach**, a companion AI conversation tutor; segment check results feed LinguaCoach's learning dashboard, and cross-app navigation links the two
 
@@ -86,11 +99,20 @@ Required keys in `.env.local`:
 | `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase project |
 | `SUPABASE_SERVICE_ROLE_KEY` | server-side DB access from route handlers |
 | `OPENROUTER_API_KEY` | all AI features (segmentation, grading, generation) |
+| `ALLOWED_EMAILS` | comma-separated allowlist for Google sign-in; unset rejects every Google sign-in (guest mode is unaffected) |
 
 Optional: `NEXT_PUBLIC_COOKIE_DOMAIN` (cross-subdomain auth with LinguaCoach), `NEXT_PUBLIC_CHAT_URL` / `NEXT_PUBLIC_GRAMMAR_URL` / `NEXT_PUBLIC_DASHBOARD_URL` (cross-app nav links), `NEXT_PUBLIC_TTS_PROVIDER=openai` (OpenAI TTS instead of Web Speech).
 
 Database schema and migrations live in [supabase/](supabase/); the guest-cleanup job is in [supabase/functions/cleanup-guest-data/](supabase/functions/cleanup-guest-data/).
 
+The guest sample history is frozen in [data/demo/](data/demo/) and inserted on first entry by [lib/guest-seed.ts](lib/guest-seed.ts) — no LLM call. The fixtures themselves were produced once by driving the real API routes, so the reference translations, the gradings and the cloze exercises are genuine model output; [scripts/](scripts/) holds that pipeline (`generate-demo-sources` → `author-demo-answers` → `grade-demo-sessions` → `freeze-demo-sessions`) and its blueprint. Every demo source text comes from the app's own `/api/generate`, so no third-party text is bundled.
+
 ## Deployment
 
 Deployed on **Vercel** — push to `main` triggers a production build. Supabase hosts the database, auth, and the scheduled Edge Function that purges expired guest accounts. The PWA service worker is enabled in production builds only.
+
+## About this repository
+
+This is a public mirror of the private repository LinguaGym is developed in. It is updated by snapshot, so the history here is one commit per sync rather than the development history, and a small number of files are not included. Issues and pull requests are welcome, but changes are applied upstream and arrive here with the next sync.
+
+Licensed under the [MIT License](LICENSE).

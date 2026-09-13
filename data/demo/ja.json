@@ -1,0 +1,337 @@
+{
+  "sourceLang": "ja",
+  "sessions": [
+    {
+      "key": "ja-1",
+      "title": "下町の天然酵母パン",
+      "targetLang": "en",
+      "inputMode": "comprehension",
+      "isPinned": false,
+      "dayOffset": -5,
+      "time": "07:45",
+      "updatedMinuteOffset": 17,
+      "sourceText": "東京の片隅にある小さなパン屋では、長年変わらぬ製法で、素朴ながらも心温まるパンが焼かれている。店主の佐藤さんは、毎日早朝から生地をこね、天然酵母の繊細な香りを引き出すことに情熱を注いでいる。特に、彼の作る全粒粉のバゲットは、外はカリッと香ばしく、中はもっちりとした食感が絶妙で、多くの常連客を魅了してやまない。近年、斬新なアイデアを取り入れたパン屋が次々とオープンする中で、佐藤さんのような伝統を守り続ける職人の存在は、食文化の豊かさを改めて感じさせてくれる。彼のパンは単なる食べ物ではなく、手間暇かけた職人の技術と、地域への愛情が詰まった芸術品と言えるだろう。店にはいつも、焼きたてのパンの香ばしい匂いが漂い、訪れる人々の心を和ませている。一度食べれば、その奥深い味わいにきっと感動することだろう。佐藤さんは、これからも変わらず、この場所で美味しいパンを作り続けていくに違いない。彼のパンにかける真摯な姿勢は、多くの若手パン職人たちにも影響を与えている。この小さなパン屋は、これからも地域の人々に愛され続けるだろう。",
+      "segments": [
+        {
+          "sourceText": "東京の片隅にある小さなパン屋では、",
+          "speakerLabel": null,
+          "referenceTranslation": "In a small bakery in Tokyo,",
+          "userTranslation": "In a small bakery tucked away in a corner of Tokyo,",
+          "status": "green",
+          "reason": "The user correctly translated the meaning of the Japanese sentence, including the nuance of 'tucked away' for '片隅'.",
+          "advice": "",
+          "checkedMinuteOffset": 3,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "長年変わらぬ製法で、",
+          "speakerLabel": null,
+          "referenceTranslation": "using unchanged methods for years,",
+          "userTranslation": "using a method that hasn't changed in years,",
+          "status": "green",
+          "reason": "The user correctly understood that the method has remained unchanged for many years.",
+          "advice": "",
+          "checkedMinuteOffset": 5,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "素朴ながらも心温まるパンが焼かれている。",
+          "speakerLabel": null,
+          "referenceTranslation": "simple yet heartwarming bread is baked.",
+          "userTranslation": "simple but comforting bread is baked.",
+          "status": "green",
+          "reason": "The user correctly translated the meaning of the Japanese sentence, conveying that simple but heartwarming bread is being baked.",
+          "advice": "",
+          "checkedMinuteOffset": 7,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "店主の佐藤さんは、",
+          "speakerLabel": null,
+          "referenceTranslation": "The owner, Sato-san,",
+          "userTranslation": "The owner, Mr. Sato,",
+          "status": "green",
+          "reason": "The user correctly identified the owner as Mr. Sato.",
+          "advice": "",
+          "checkedMinuteOffset": 9,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "毎日早朝から生地をこね、",
+          "speakerLabel": null,
+          "referenceTranslation": "kneads dough from early morning daily,",
+          "userTranslation": "kneads the dough in the morning,",
+          "status": "yellow",
+          "reason": "The user understood the action of kneading dough in the morning but missed the nuance of 'every day' and 'early morning'.",
+          "advice": "The correct understanding should include the daily and early aspect: 'kneads the dough every day from early morning'.",
+          "checkedMinuteOffset": 11,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "天然酵母の繊細な香りを引き出すことに情熱を注いでいる。",
+          "speakerLabel": null,
+          "referenceTranslation": "and is passionate about bringing out the delicate aroma of natural yeast.",
+          "userTranslation": "and pours his passion into drawing out the delicate aroma of natural yeast.",
+          "status": "green",
+          "reason": "The user correctly translated the core meaning of the Japanese sentence, understanding that someone is passionate about bringing out the delicate aroma of natural yeast.",
+          "advice": "",
+          "checkedMinuteOffset": 13,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "特に、彼の作る全粒粉のバゲットは、",
+          "speakerLabel": null,
+          "referenceTranslation": "Especially, his whole wheat baguette,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "外はカリッと香ばしく、",
+          "speakerLabel": null,
+          "referenceTranslation": "is crispy and fragrant on the outside,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "中はもっちりとした食感が絶妙で、",
+          "speakerLabel": null,
+          "referenceTranslation": "and has an exquisite chewy texture inside,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "多くの常連客を魅了してやまない。",
+          "speakerLabel": null,
+          "referenceTranslation": "endlessly captivating many regular customers.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "近年、斬新なアイデアを取り入れたパン屋が次々とオープンする中で、",
+          "speakerLabel": null,
+          "referenceTranslation": "In recent years, as bakeries with innovative ideas open one after another,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "佐藤さんのような伝統を守り続ける職人の存在は、",
+          "speakerLabel": null,
+          "referenceTranslation": "the existence of artisans like Sato-san who continue to preserve tradition,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "食文化の豊かさを改めて感じさせてくれる。",
+          "speakerLabel": null,
+          "referenceTranslation": "makes us feel the richness of food culture anew.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "彼のパンは単なる食べ物ではなく、",
+          "speakerLabel": null,
+          "referenceTranslation": "His bread is not just food,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "手間暇かけた職人の技術と、",
+          "speakerLabel": null,
+          "referenceTranslation": "but an artistic creation filled with the craftsman's skill,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "地域への愛情が詰まった芸術品と言えるだろう。",
+          "speakerLabel": null,
+          "referenceTranslation": "and love for the community.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "店にはいつも、",
+          "speakerLabel": null,
+          "referenceTranslation": "The shop always has,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "焼きたてのパンの香ばしい匂いが漂い、",
+          "speakerLabel": null,
+          "referenceTranslation": "the fragrant aroma of freshly baked bread wafting,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "訪れる人々の心を和ませている。",
+          "speakerLabel": null,
+          "referenceTranslation": "soothing the hearts of visitors.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "一度食べれば、",
+          "speakerLabel": null,
+          "referenceTranslation": "Once you taste it,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "その奥深い味わいにきっと感動することだろう。",
+          "speakerLabel": null,
+          "referenceTranslation": "you will surely be moved by its profound flavor.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "佐藤さんは、",
+          "speakerLabel": null,
+          "referenceTranslation": "Sato-san,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "これからも変わらず、",
+          "speakerLabel": null,
+          "referenceTranslation": "will undoubtedly continue,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "この場所で美味しいパンを作り続けていくに違いない。",
+          "speakerLabel": null,
+          "referenceTranslation": "to make delicious bread in this place.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "彼のパンにかける真摯な姿勢は、",
+          "speakerLabel": null,
+          "referenceTranslation": "His sincere attitude towards bread,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "多くの若手パン職人たちにも影響を与えている。",
+          "speakerLabel": null,
+          "referenceTranslation": "is also influencing many young bakers.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "この小さなパン屋は、",
+          "speakerLabel": null,
+          "referenceTranslation": "This small bakery,",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        },
+        {
+          "sourceText": "これからも地域の人々に愛され続けるだろう。",
+          "speakerLabel": null,
+          "referenceTranslation": "will continue to be loved by the local community.",
+          "userTranslation": "",
+          "status": "neutral",
+          "reason": null,
+          "advice": null,
+          "checkedMinuteOffset": null,
+          "clozeMetadata": null
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "天然酵母",
+      "translation": "natural yeast",
+      "type": "word",
+      "partOfSpeech": "noun",
+      "targetLang": "en",
+      "sessionKey": "ja-1",
+      "minuteOffset": 12
+    }
+  ]
+}

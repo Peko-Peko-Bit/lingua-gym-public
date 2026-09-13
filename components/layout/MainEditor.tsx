@@ -9,9 +9,10 @@ import { LanguageCode, SUPPORTED_LANGUAGES } from "@/types";
 import { useTranslationSession } from "@/lib/hooks/useTranslationSession";
 import { useTheme } from "@/lib/hooks/useTheme";
 import { LANGUAGE_FLAG_MAP } from "@/lib/flags";
-import { Menu, Settings, ChevronDown, Headphones, PenLine } from "lucide-react";
+import { Menu, Settings, ChevronDown, Headphones, PenLine, Sparkles } from "lucide-react";
 import SelectionPopup from "@/components/editor/SelectionPopup";
 import { InputMode } from "@/types";
+import { useUser } from "@/hooks/useUser";
 
 type ViewMode = "source" | "translation";
 type SidebarTab = "sessions" | "vocabulary";
@@ -49,6 +50,11 @@ export default function MainEditor() {
   } = useTranslationSession();
 
   useTheme(sourceLang);
+
+  // Guests are seeded with demo sessions on entry (lib/guest-seed.ts), so say
+  // so rather than letting the practice history read as someone's real work.
+  const { user } = useUser();
+  const isGuest = user?.is_anonymous === true;
 
   const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   const langDropdownRef = useRef<HTMLDivElement>(null);
@@ -352,6 +358,25 @@ export default function MainEditor() {
           </button>
         </div>
       </header>
+
+      {/* ══════════════════════════════════════
+          GUEST SAMPLE-DATA BANNER  (all widths)
+          Sits between the two headers and the content so one element covers
+          both breakpoints. flex-shrink-0 is required — the root is a
+          h-screen flex column and the panes below are flex-1 min-h-0.
+      ══════════════════════════════════════ */}
+      {isGuest && (
+        <div className="flex-shrink-0 flex items-start gap-2.5 px-4 py-2.5
+                        bg-indigo-50 dark:bg-indigo-950/40
+                        border-b border-indigo-100 dark:border-indigo-900/60
+                        text-sm text-gray-600 dark:text-zinc-300">
+          <Sparkles className="w-4 h-4 flex-shrink-0 mt-0.5 text-indigo-500 dark:text-indigo-400" />
+          <p>
+            <span className="font-semibold text-indigo-600 dark:text-indigo-400">Sample data</span>
+            {" — guest accounts start with a demo practice history so you can explore right away."}
+          </p>
+        </div>
+      )}
 
       {/* ══════════════════════════════════════
           MOBILE TAB BAR  (< md)

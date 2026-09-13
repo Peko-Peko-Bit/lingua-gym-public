@@ -27,6 +27,8 @@ const eslintConfig = defineConfig([
     "public/workbox-*.js",
     // Deno runtime code (Edge Functions) — Node/Next 前提のルールでは誤検知する:
     "supabase/functions/**",
+    // デモデータ生成の中間出力（gitignore 済み・使い捨て）:
+    "scripts/.demo-out/**",
   ]),
 ]);
 

@@ -3,7 +3,8 @@ import { cookies } from "next/headers";
 
 /**
  * Auth-aware server client — reads/writes the session cookie.
- * Use in Route Handlers and Server Actions to get the current user.
+ * Use in Route Handlers, Server Actions and Server Components to get the
+ * current user (see setAll below for why Server Components are safe).
  * For DB operations, continue using createServerClient() from supabase-server.ts.
  */
 export async function createAuthServerClient() {
@@ -19,9 +20,17 @@ export async function createAuthServerClient() {
           return cookieStore.getAll();
         },
         setAll(cookiesToSet) {
-          cookiesToSet.forEach(({ name, value, options }) => {
-            cookieStore.set(name, value, { ...options, domain });
-          });
+          try {
+            cookiesToSet.forEach(({ name, value, options }) => {
+              cookieStore.set(name, value, { ...options, domain });
+            });
+          } catch {
+            // Server Components get a read-only cookie store, so a token refresh
+            // triggered from one would throw here and take the whole page down.
+            // Nothing is lost by ignoring it: proxy.ts runs the same refresh on
+            // every request and writes the cookies from middleware, where it is
+            // allowed. Route Handlers and Server Actions still write normally.
+          }
         },
       },
     }
